@@ -1,0 +1,129 @@
+{
+  "documents": {
+    "1": {
+      "id": "1",
+      "uuid": "67f6c51c-05ae-4657-a3f5-e7b2941e47d1",
+      "series": "AF",
+      "sequentialNumber": 1,
+      "documentType": "factura_recibo_autofacturacao",
+      "issueDate": "2026-03-09",
+      "taxableDate": "2026-03-09",
+      "seller": {
+        "name": "Empresa",
+        "tradeName": "Empresa",
+        "address": "",
+        "nif": "",
+        "email": "",
+        "phone": ""
+      },
+      "buyer": {
+        "name": "Test Buyer",
+        "nif": "999999999",
+        "address": "Luanda",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "TEST",
+          "description": "Test Item",
+          "quantity": 1,
+          "unitPrice": 1000,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1140
+        }
+      ],
+      "totals": {
+        "subtotal": 1000,
+        "discount": 0,
+        "vatTotal": 140,
+        "total": 1140,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1000,
+            "amount": 140
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-03-16",
+        "paidAmount": 1140,
+        "paidDate": "2026-03-09T22:40:33.746Z"
+      },
+      "status": "paid",
+      "relatedDocuments": [
+        "2"
+      ],
+      "createdAt": "2026-03-09T22:40:33.720Z",
+      "updatedAt": "2026-03-09T22:40:33.772Z"
+    },
+    "2": {
+      "id": "2",
+      "uuid": "38534065-c86c-4f6e-85aa-df58015cc632",
+      "series": "RC",
+      "sequentialNumber": 1,
+      "documentType": "recibo",
+      "issueDate": "2026-03-09",
+      "taxableDate": "2026-03-09",
+      "seller": {
+        "name": "Empresa",
+        "tradeName": "Empresa",
+        "address": "",
+        "nif": "",
+        "email": "",
+        "phone": ""
+      },
+      "buyer": {
+        "name": "Test Buyer",
+        "nif": "999999999",
+        "address": "Luanda",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Pagamento total referente à documento AF XVE2026/1",
+          "quantity": 1,
+          "unitPrice": 1140,
+          "discount": 0,
+          "vatRate": 0,
+          "total": 1140,
+          "vatExemptionReason": "M04"
+        }
+      ],
+      "totals": {
+        "subtotal": 1140,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": 1140,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": 1140,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-03-16",
+        "paidAmount": 1140,
+        "paidDate": "2026-03-09T22:40:33.746Z"
+      },
+      "status": "paid",
+      "relatedDocuments": [
+        "1"
+      ],
+      "createdAt": "2026-03-09T22:40:33.746Z",
+      "updatedAt": "2026-03-09T22:40:33.772Z"
+    }
+  },
+  "nextId": 3,
+  "lastUpdated": "2026-03-09T22:40:33.772Z"
+}

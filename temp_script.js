@@ -1,0 +1,1 @@
+const d=require('./data/documents.json').documents; const arr=Object.values(d); const gr=arr.find(x=>x.documentType==='nota_de_entrega'); if(!gr){console.log('NO_GR');process.exit(0)} console.log('ID='+gr.id+' SERIES='+gr.series+' SEQ='+gr.sequentialNumber);

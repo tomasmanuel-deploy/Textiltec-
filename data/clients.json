@@ -1,0 +1,108 @@
+{
+  "clients": {
+    "1": {
+      "name": "Rajan Fortes",
+      "tradeName": "Rajan Fortes",
+      "nif": "99999999999",
+      "address": "Rua 25 De Abril , 47",
+      "email": "",
+      "phone": "",
+      "clientType": "company",
+      "status": "active",
+      "companyId": "cmp-1760843539871",
+      "id": "1",
+      "createdAt": "2026-03-07T11:35:59.344Z",
+      "updatedAt": "2026-03-07T11:35:59.344Z"
+    },
+    "2": {
+      "name": "Consumidor Final",
+      "nif": "999999999",
+      "address": "Luanda",
+      "clientType": "company",
+      "status": "active",
+      "notes": "Criado automaticamente do documento FT0001",
+      "id": "2",
+      "createdAt": "2026-03-07T12:22:03.518Z",
+      "updatedAt": "2026-03-07T12:22:03.518Z"
+    },
+    "3": {
+      "name": "Cliente NIF",
+      "nif": "500000000",
+      "address": "Luanda",
+      "clientType": "company",
+      "status": "active",
+      "notes": "Criado automaticamente do documento FT0022",
+      "id": "3",
+      "createdAt": "2026-03-07T14:13:43.423Z",
+      "updatedAt": "2026-03-07T14:13:43.423Z"
+    },
+    "4": {
+      "name": "Cliente Cancelamento",
+      "nif": "540000000",
+      "address": "Luanda",
+      "clientType": "company",
+      "status": "active",
+      "notes": "Criado automaticamente do documento FT0023",
+      "id": "4",
+      "createdAt": "2026-03-07T14:13:43.444Z",
+      "updatedAt": "2026-03-07T14:13:43.444Z"
+    },
+    "5": {
+      "name": "Cliente Proforma",
+      "nif": "530000000",
+      "address": "Luanda",
+      "clientType": "company",
+      "status": "active",
+      "notes": "Criado automaticamente do documento PP0001",
+      "id": "5",
+      "createdAt": "2026-03-07T14:13:49.080Z",
+      "updatedAt": "2026-03-07T14:13:49.080Z"
+    },
+    "6": {
+      "name": "Cliente M",
+      "nif": "520000000",
+      "address": "Luanda",
+      "clientType": "company",
+      "status": "active",
+      "notes": "Criado automaticamente do documento FT0025",
+      "id": "6",
+      "createdAt": "2026-03-07T14:13:49.185Z",
+      "updatedAt": "2026-03-07T14:13:49.185Z"
+    },
+    "7": {
+      "name": "Cliente Descontos",
+      "nif": "510000000",
+      "address": "Luanda",
+      "clientType": "company",
+      "status": "active",
+      "notes": "Criado automaticamente do documento FT0026",
+      "id": "7",
+      "createdAt": "2026-03-07T14:13:49.205Z",
+      "updatedAt": "2026-03-07T14:13:49.205Z"
+    },
+    "8": {
+      "name": "Cliente USD",
+      "nif": "500000001",
+      "address": "Luanda",
+      "clientType": "company",
+      "status": "active",
+      "notes": "Criado automaticamente do documento FT0027",
+      "id": "8",
+      "createdAt": "2026-03-07T14:13:49.224Z",
+      "updatedAt": "2026-03-07T14:13:49.224Z"
+    },
+    "9": {
+      "name": "Auto-Faturação",
+      "nif": "500000010",
+      "address": "Luanda",
+      "clientType": "company",
+      "status": "active",
+      "notes": "Criado automaticamente do documento FT0031",
+      "id": "9",
+      "createdAt": "2026-03-07T14:13:49.329Z",
+      "updatedAt": "2026-03-07T14:13:49.329Z"
+    }
+  },
+  "nextId": 10,
+  "lastUpdated": "2026-03-07T14:13:49.329Z"
+}

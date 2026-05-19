@@ -1,0 +1,37 @@
+{
+  "products": {
+    "1": {
+      "name": "New product ",
+      "description": "",
+      "code": "1231434",
+      "category": "new cat",
+      "price": 50,
+      "unit": "UN",
+      "stock": 0,
+      "minStock": 0,
+      "status": "active",
+      "taxRate": 14,
+      "isService": false,
+      "id": "1",
+      "createdAt": "2026-03-07T11:36:28.336Z",
+      "updatedAt": "2026-03-07T11:36:28.336Z"
+    },
+    "2": {
+      "name": "novo serv",
+      "description": "",
+      "code": "6645545435",
+      "category": "new cat",
+      "price": 2,
+      "unit": "",
+      "stock": 0,
+      "minStock": 0,
+      "status": "active",
+      "taxRate": 14,
+      "isService": true,
+      "id": "2",
+      "createdAt": "2026-03-29T23:32:36.385Z",
+      "updatedAt": "2026-03-29T23:32:36.385Z"
+    }
+  },
+  "nextId": 3
+}

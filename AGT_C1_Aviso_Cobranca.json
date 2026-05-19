@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0",
+  "submissionUUID": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6f",
+  "taxRegistrationNumber": "5002821079",
+  "submissionTimeStamp": "2025-10-27T11:05:00Z",
+  "softwareInfo": {
+    "softwareInfoDetail": {
+      "productId": "Prakash/Textiltec Soluções",
+      "productVersion": "1.0.6",
+      "productCompanyTaxId": "5002821079",
+      "softwareValidationNumber": "0"
+    },
+    "jwsSoftwareSignature": "eyJhbGciOiJSUzI1NiJ9.eyJzb2Z0d2FyZSI6InRlc3QifQ.dummy_signature_block_software"
+  },
+  "numberOfEntries": 1,
+  "documents": [
+    {
+      "documentNo": "AC S001/1",
+      "documentStatus": "N",
+      "jwsDocumentSignature": "eyJhbGciOiJSUzI1NiJ9.eyJkb2N1bWVudCI6InRlc3QifQ.dummy_signature_block_document",
+      "documentDate": "2025-10-27",
+      "customerCountry": "AO",
+      "customerTaxID": "999999999",
+      "companyName": "Cliente Exemplo",
+      "invoiceType": "AC",
+      "documentType": "AC",
+      "period": 10,
+      "sourceID": "Admin",
+      "systemEntryDate": "2025-10-27T11:05:00",
+      "transactionID": "20251027 S001 1",
+      "selfBillingIndicator": 0,
+      "withholdingTaxList": [],
+      "shipTo": {
+        "address": {
+          "addressDetail": "Rua do Cliente, 123",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "shipFrom": {
+        "address": {
+          "addressDetail": "Loja Principal",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "movementEndTime": "2025-10-27T11:05:00",
+      "movementStartTime": "2025-10-27T11:05:00",
+      "lines": [
+        {
+          "lineNumber": 1,
+          "productCode": "PROD003",
+          "productDescription": "Serviço de Exemplo",
+          "quantity": 1,
+          "unitOfMeasure": "UN",
+          "unitPrice": 50000,
+          "unitPriceBase": 50000,
+          "taxPointDate": "2025-10-27",
+          "description": "Serviço de Exemplo",
+          "productType": "S",
+          "creditAmount": 50000,
+          "settlementAmount": "0",
+          "reference": "PROD003",
+          "taxes": [
+            {
+              "taxType": "IVA",
+              "taxCountryRegion": "AO",
+              "taxCode": "NOR",
+              "taxPercentage": 14,
+              "taxContribution": 7000
+            }
+          ]
+        }
+      ],
+      "notes": "Aviso de Cobrança - Pagamento a 30 dias",
+      "documentTotals": {
+        "taxPayable": 7000,
+        "netTotal": 50000,
+        "grossTotal": 57000,
+        "currencyCode": "AOA"
+      }
+    }
+  ]
+}

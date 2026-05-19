@@ -1,0 +1,20 @@
+pega esta ideia aqi
+
+http://localhost:3000/purchases
+
+implementa aqui http://localhost:3000/clients
+
+para registro de clientes, sera topo e nao assim
+
+http://localhost:3000/clients/new
+
+
+
+aplica o mesmo estilo para aqui
+
+http://localhost:3000/products
+
+
+
+aqui http://localhost:3000/series ainda esta trazer dados de outras empresas
+aqui idem http://localhost:3000/inventory?productId=6a0b914d77296178b7afccaf

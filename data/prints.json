@@ -1,0 +1,425 @@
+{
+  "records": {
+    "53a53181-b01e-41a9-bdfe-18d51ce1d495": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T16:32:36.927Z",
+          "series": "FT",
+          "number": 132
+        }
+      ]
+    },
+    "37c749e3-22b5-4600-89c1-9c88a628131a": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T16:33:25.021Z",
+          "series": "RC",
+          "number": 11
+        }
+      ]
+    },
+    "ba293302-cc41-4028-a3af-ac8dce147e57": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T16:35:00.264Z",
+          "series": "NC",
+          "number": 121
+        }
+      ]
+    },
+    "a336f9f0-e285-45f2-a4ee-ce8b9daf7c2f": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T16:35:20.061Z",
+          "series": "NC",
+          "number": 122
+        }
+      ]
+    },
+    "73cf5bdd-cbef-403e-82f8-b9a073e6aa79": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T16:44:59.643Z",
+          "series": "RC",
+          "number": 12
+        }
+      ]
+    },
+    "b34fbf07-e43f-4aaf-abd9-5e36cd6b2863": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T16:45:28.865Z",
+          "series": "NC",
+          "number": 123
+        }
+      ]
+    },
+    "57ec593c-8f17-4b7d-896d-c66d02d5f39c": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T16:45:38.143Z",
+          "series": "NC",
+          "number": 124
+        }
+      ]
+    },
+    "3a33fffd-a872-4025-b4ef-89752cb80696": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T16:52:28.868Z",
+          "series": "NC",
+          "number": 126
+        }
+      ]
+    },
+    "58d33232-9a36-45b7-b939-ce161035570a": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T16:52:38.941Z",
+          "series": "NC",
+          "number": 125
+        }
+      ]
+    },
+    "4481b10f-aad9-4935-8e66-ea6de01ec771": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T17:10:11.675Z",
+          "series": "NC",
+          "number": 127
+        }
+      ]
+    },
+    "3482a635-98f7-4d21-8fdc-65690c3ae203": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T17:10:31.943Z",
+          "series": "NC",
+          "number": 128
+        }
+      ]
+    },
+    "428bd0f3-5306-459a-8359-6a750e0f1764": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T17:17:16.070Z",
+          "series": "RC",
+          "number": 15
+        }
+      ]
+    },
+    "331bca0d-7b33-4ca8-8248-b9011a36835d": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T17:17:38.601Z",
+          "series": "NC",
+          "number": 200
+        }
+      ]
+    },
+    "f456e318-222a-439b-a74c-1085a431e8f0": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T17:17:49.189Z",
+          "series": "NC",
+          "number": 201
+        }
+      ]
+    },
+    "4b64c511-97a0-4fb0-b87c-c970aa7db11f": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T17:22:05.289Z",
+          "series": "NC",
+          "number": 130
+        }
+      ]
+    },
+    "0e584362-72b7-426d-bd98-cc7c43f80203": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T17:22:22.871Z",
+          "series": "NC",
+          "number": 129
+        }
+      ]
+    },
+    "dbafa7f5-f11a-4ff6-ad84-f4818c6abc2c": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T17:34:59.985Z",
+          "series": "NC",
+          "number": 131
+        }
+      ]
+    },
+    "7c7de937-c94a-498b-bbee-a195cf7a949b": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T17:35:10.981Z",
+          "series": "NC",
+          "number": 132
+        }
+      ]
+    },
+    "9feabcc0-7d30-4865-acc3-c33914cf36a3": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T17:52:18.150Z",
+          "series": "NC",
+          "number": 134
+        }
+      ]
+    },
+    "b31ccd29-dd87-4812-b1a6-8ff986b9fd9a": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T17:52:32.699Z",
+          "series": "NC",
+          "number": 133
+        }
+      ]
+    },
+    "4e3245b9-15f4-4e8c-8267-06df9b32996e": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T18:11:43.725Z",
+          "series": "RC",
+          "number": 19
+        }
+      ]
+    },
+    "1672d612-6f36-4dd1-af0e-12b34b66636b": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T18:12:10.225Z",
+          "series": "NC",
+          "number": 136
+        }
+      ]
+    },
+    "71745567-904d-4e58-bbd8-3a8cd5803b64": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T18:12:21.050Z",
+          "series": "NC",
+          "number": 135
+        }
+      ]
+    },
+    "8e00ead1-38f2-4824-b0fe-2702b342034c": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T18:36:32.923Z",
+          "series": "FT",
+          "number": 141
+        }
+      ]
+    },
+    "cbfee133-ec26-49b5-9111-e23633420e02": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-07T18:38:28.617Z",
+          "series": "RC",
+          "number": 20
+        }
+      ]
+    },
+    "9c5a76b7-a1ec-4dfa-be37-48310f0af8ff": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-13T17:48:10.768Z",
+          "series": "FT",
+          "number": 142
+        }
+      ]
+    },
+    "5df587de-7f75-449a-9760-bdf7b5cef57e": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-13T17:59:12.769Z",
+          "series": "FT-AGT",
+          "number": 143
+        }
+      ]
+    },
+    "30c7630e-4f4d-4475-9244-c12396ea7ea1": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-13T18:00:25.187Z",
+          "series": "FT",
+          "number": 143
+        }
+      ]
+    },
+    "e0edba2f-074b-4a9f-9322-af93541e0526": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-13T18:01:33.174Z",
+          "series": "RC",
+          "number": 21
+        }
+      ]
+    },
+    "44505641-3761-439c-8916-c80851311ec6": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-13T18:07:07.489Z",
+          "series": "FT",
+          "number": 144
+        }
+      ]
+    },
+    "6038b18d-6592-4ee2-a36a-54ff563a8d55": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-13T18:09:02.649Z",
+          "series": "NC",
+          "number": 137
+        }
+      ]
+    },
+    "d2e68f11-6ec6-4f13-8e0f-22fe49a9d931": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-13T18:10:22.047Z",
+          "series": "NC",
+          "number": 138
+        }
+      ]
+    },
+    "af578bbb-9051-4e8f-8d7c-651f63ee7ecc": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-13T18:44:23.745Z",
+          "series": "NC",
+          "number": 139
+        }
+      ]
+    },
+    "ed9e1379-ea47-413d-a71a-6df776c7e08c": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-13T18:51:48.038Z",
+          "series": "FT",
+          "number": 145
+        }
+      ]
+    },
+    "b789a0b8-06d2-4cc7-99fa-a4da995bc586": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-13T18:54:01.346Z",
+          "series": "RC",
+          "number": 42
+        }
+      ]
+    },
+    "59c48a6e-8fb9-47ee-8454-a5e032c80212": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-13T18:56:04.421Z",
+          "series": "NC",
+          "number": 140
+        }
+      ]
+    },
+    "fb1db041-17ad-4a53-9d33-eefcc39c01ce": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-14T21:57:42.718Z",
+          "series": "FT",
+          "number": 146
+        }
+      ]
+    },
+    "c5264c91-15ef-4cb0-ab18-95d39a82a7b9": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-14T22:30:17.646Z",
+          "series": "FT",
+          "number": 147
+        }
+      ]
+    },
+    "3223dfb3-5d28-4f6f-9d3c-a7ee60edb73e": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-14T23:09:31.812Z",
+          "series": "RC",
+          "number": 43
+        }
+      ]
+    },
+    "76c244da-252d-45dc-836b-b9f7d39db3df": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-18T01:05:36.180Z",
+          "series": "FT",
+          "number": 148
+        }
+      ]
+    },
+    "0bad8510-0523-4cad-b966-3f381d4b53ce": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-18T01:13:07.715Z",
+          "series": "RC",
+          "number": 44
+        }
+      ]
+    },
+    "059a3cc8-8303-419e-ac49-54ea6f4b8fc9": {
+      "count": 1,
+      "history": [
+        {
+          "at": "2026-04-18T01:20:54.518Z",
+          "series": "FT",
+          "number": 149
+        }
+      ]
+    }
+  },
+  "lastUpdated": "2026-04-18T01:20:54.518Z"
+}

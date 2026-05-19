@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Prakash</title>
+    <style>
+      :root {
+        --brand: #7e3492;
+        --brand2: #9c3cae;
+      }
+      html, body { height: 100%; }
+      body {
+        margin: 0;
+        background: linear-gradient(135deg, var(--brand), var(--brand2));
+        display: grid;
+        place-items: center;
+        animation: fadeIn 600ms ease forwards;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        color: #fff;
+      }
+      .card {
+        text-align: center;
+        transform: translateY(6px);
+        animation: rise 900ms ease forwards;
+        filter: drop-shadow(0 6px 20px rgba(0,0,0,0.25));
+      }
+      .logo-wrap {
+        width: 140px;
+        height: 140px;
+        margin: 0 auto 16px auto;
+        display: grid;
+        place-items: center;
+      }
+      .logo-wrap img {
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+        border-radius: 24px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+        display: none; /* revealed when loaded */
+      }
+      .app-name { font-size: 28px; font-weight: 700; letter-spacing: 0.2px; }
+      @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+      @keyframes rise { from { transform: translateY(16px); opacity: 0 } to { transform: translateY(0); opacity: 1 } }
+      .sub { font-size: 12px; opacity: 0.85; margin-top: 4px; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="logo-wrap">
+        <img id="logo" src="../assets/icon.png" alt="App Logo" />
+        <svg id="fallback-svg" viewBox="0 0 96 96" width="120" height="120" aria-label="Logo" role="img">
+          <defs>
+            <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0" stop-color="#7e3492" />
+              <stop offset="1" stop-color="#9c3cae" />
+            </linearGradient>
+          </defs>
+          <rect x="12" y="12" width="72" height="72" rx="18" fill="#ffffff"/>
+          <path d="M34 34c6-10 22-10 28 0 3 6-4 13-14 18-12 6-16 10-12 18 6 10 22 10 28 0" 
+                fill="none" stroke="url(#g)" stroke-width="8" stroke-linecap="round" />
+        </svg>
+      </div>
+      <div class="app-name">Prakash</div>
+      <div class="sub">A iniciar…</div>
+      <div class="sub" style="margin-top:8px; font-size:13px; opacity:0.9">Software que vai mudar o mundo</div>
+    </div>
+    <script>
+      (function() {
+        var img = document.getElementById('logo');
+        var fb = document.getElementById('fallback-svg');
+        if (!img) return;
+        img.onload = function(){ fb && (fb.style.display = 'none'); img.style.display = 'block'; };
+        img.onerror = function(){ img.remove && img.remove(); };
+      })();
+    </script>
+  </body>
+  </html>

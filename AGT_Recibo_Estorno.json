@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0",
+  "submissionUUID": "f6a7b8c9-d0e1-2f3a-4b5c-6d7e8f90a1b2",
+  "taxRegistrationNumber": "5002821079",
+  "submissionTimeStamp": "2025-10-27T10:30:00Z",
+  "softwareInfo": {
+    "softwareInfoDetail": {
+      "productId": "Prakash/Textiltec Soluções",
+      "productVersion": "1.0.6",
+      "productCompanyTaxId": "5002821079",
+      "softwareValidationNumber": "0"
+    },
+    "jwsSoftwareSignature": "eyJhbGciOiJSUzI1NiJ9.eyJzb2Z0d2FyZSI6InRlc3QifQ.dummy_signature_block_software"
+  },
+  "numberOfEntries": 1,
+  "documents": [
+    {
+      "documentNo": "RE S001/1",
+      "documentStatus": "N",
+      "jwsDocumentSignature": "eyJhbGciOiJSUzI1NiJ9.eyJkb2N1bWVudCI6InRlc3QifQ.dummy_signature_block_document",
+      "documentDate": "2025-10-27",
+      "customerCountry": "AO",
+      "customerTaxID": "999999999",
+      "companyName": "Cliente Exemplo",
+      "invoiceType": "RE",
+      "documentType": "RE",
+      "period": 10,
+      "sourceID": "Admin",
+      "systemEntryDate": "2025-10-27T10:30:00",
+      "transactionID": "20251027 S001 1",
+      "selfBillingIndicator": 0,
+      "withholdingTaxList": [],
+      "shipTo": {
+        "address": {
+          "addressDetail": "Rua do Cliente, 456",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "shipFrom": {
+        "address": {
+          "addressDetail": "Avenida 4 de Fevereiro, 45",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "movementEndTime": "2025-10-27T10:30:00",
+      "movementStartTime": "2025-10-27T10:30:00",
+      "lines": [
+        {
+          "lineNumber": 1,
+          "productCode": "SERV002",
+          "productDescription": "Estorno de Pagamento",
+          "quantity": 1,
+          "unitOfMeasure": "UN",
+          "unitPrice": 10000,
+          "unitPriceBase": 10000,
+          "taxPointDate": "2025-10-27",
+          "description": "Estorno de Pagamento",
+          "productType": "S",
+          "creditAmount": 10000,
+          "settlementAmount": "0",
+          "reference": "SERV002",
+          "referenceInfo": {
+            "reference": "RC S001/1",
+            "reason": "Estorno de recibo por erro",
+            "referenceItemLineNo": 1
+          },
+          "taxes": [
+            {
+              "taxType": "IVA",
+              "taxCountryRegion": "AO",
+              "taxCode": "NOR",
+              "taxPercentage": 14,
+              "taxContribution": 1400
+            }
+          ]
+        }
+      ],
+      "notes": "Recibo de Estorno referente ao RC S001/1",
+      "documentTotals": {
+        "taxPayable": 1400,
+        "netTotal": 10000,
+        "grossTotal": 11400,
+        "settlementAmount": "0",
+        "paymentMechanism": "NU",
+        "currencyCode": "AOA"
+      }
+    }
+  ]
+}

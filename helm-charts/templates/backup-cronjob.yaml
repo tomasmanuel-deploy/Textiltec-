@@ -1,0 +1,37 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: {{ include "prakash-billing-dashboard.fullname" . }}-backup
+  labels:
+    {{- include "prakash-billing-dashboard.labels" . | nindent 4 }}
+spec:
+  schedule: "0 2 * * *" # Run at 2 AM daily
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 1
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: backup
+            image: alpine:latest
+            command:
+            - /bin/sh
+            - -c
+            - |
+              echo "Starting backup..."
+              tar -czf /backup/data-$(date +%Y%m%d).tar.gz /data
+              # In a real scenario, upload to S3/GCS here
+              echo "Backup completed"
+            volumeMounts:
+            - name: data
+              mountPath: /data
+            - name: backup
+              mountPath: /backup
+          restartPolicy: OnFailure
+          volumes:
+          - name: data
+            persistentVolumeClaim:
+              claimName: {{ include "prakash-billing-dashboard.fullname" . }}-pvc
+          - name: backup
+            emptyDir: {} # Placeholder for backup storage

@@ -1,0 +1,44 @@
+{
+  "nextId": 5,
+  "records": [
+    {
+      "id": "1",
+      "warehouseId": "1",
+      "productId": "2",
+      "delta": 20,
+      "source": "manual",
+      "createdAt": "2026-05-15T00:51:57.964Z",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "warehouseId": "1",
+      "productId": "6a0b914d77296178b7afccaf",
+      "delta": 4,
+      "source": "stock_in",
+      "reference": "",
+      "createdAt": "2026-05-19T01:12:35.979Z",
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "warehouseId": "1",
+      "productId": "6a0b914d77296178b7afccaf",
+      "delta": -4,
+      "source": "stock_in",
+      "reference": "",
+      "createdAt": "2026-05-19T01:12:40.790Z",
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "warehouseId": "1",
+      "productId": "6a0b914d77296178b7afccaf",
+      "delta": 4,
+      "source": "stock_in",
+      "reference": "",
+      "createdAt": "2026-05-19T01:12:42.011Z",
+      "status": "active"
+    }
+  ]
+}

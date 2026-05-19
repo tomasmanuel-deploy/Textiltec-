@@ -1,0 +1,4027 @@
+{
+  "documents": {
+    "1": {
+      "id": "1",
+      "uuid": "53a53181-b01e-41a9-bdfe-18d51ce1d495",
+      "series": "FT",
+      "sequentialNumber": 132,
+      "documentType": "factura",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "debitNoteReason": "",
+      "status": "cancelled",
+      "relatedDocuments": [
+        "2",
+        "3"
+      ],
+      "createdAt": "2026-04-07T16:32:30.355Z",
+      "updatedAt": "2026-04-07T16:34:54.580Z",
+      "hash": "sCXi+/FsWqvGotlVhbh+QCpnOpQfwkJ6hDUg/wfmsDFsDnFXKOjzg9gbSGBQekaIbUS1QkP7ipXV4vMybGMWedf4tPT/VJyRGDShyV6kebba3qZMBVIICBQL49dN82GFJW8fgWcnf3sVg4w9NZuQ4n2Y5LJyAeielsnUolyfYs7qhOR3lDLNzC23FFUr0Ky1wSUINIEzhJHHyT+ccB24hUpS7vwwmRoYQmQbF3rrmlVp8EthYlzdhiV8KVOMVrRZDL/DtXo7gG7skbPHHvKGl82wWSKNiyhSBG6N7P3sSdJ0MOeeVcSJ/YsPrRDvm4WhLnIS0ezWQ7GiwnZabZcwOw==",
+      "prevHash": "",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063419554",
+        "submissionDate": "2026-04-07T16:32:52.021Z",
+        "message": "Already exists",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T16:34:54.580Z",
+        "reason": "nada"
+      }
+    },
+    "2": {
+      "id": "2",
+      "uuid": "37c749e3-22b5-4600-89c1-9c88a628131a",
+      "series": "RC",
+      "sequentialNumber": 11,
+      "documentType": "recibo",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Pagamento total referente à Factura FT XVE2026/132",
+          "quantity": 1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": 1.14,
+          "vatExemptionReason": "M04"
+        }
+      ],
+      "totals": {
+        "subtotal": 1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": 1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "status": "cancelled",
+      "relatedDocuments": [
+        "1",
+        "4"
+      ],
+      "createdAt": "2026-04-07T16:33:00.818Z",
+      "updatedAt": "2026-04-07T16:35:14.451Z",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:47.991Z",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T16:35:14.451Z",
+        "reason": "nada"
+      }
+    },
+    "3": {
+      "id": "3",
+      "uuid": "ba293302-cc41-4028-a3af-ac8dce147e57",
+      "series": "NC",
+      "sequentialNumber": 121,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "1231434",
+          "description": "Nota de crédito referente FT XVE2026/132 — New product ",
+          "quantity": -1,
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1,
+        "discount": 0,
+        "vatTotal": -0.14,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": -1,
+            "amount": -0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "1"
+      ],
+      "createdAt": "2026-04-07T16:34:54.560Z",
+      "updatedAt": "2026-04-07T16:44:08.530Z",
+      "hash": "PYxn1Ts8w1aUn4z27yr2rJnE9i16UNzTLVJj5UDZZqFyamOGI+iPE3WKTVXqWySxN4d8iAozbxU/fUlLINWlB2dFpfmOZBz2505W1RhHxZVyc6c8RmYMAHu/M07VRGaCz2Eop9dsinCHoYNs3tJM8EG2gg8SAgvC726g3nyvoDnYcwRwq1jTBOkL2EvCrF+RddhuZmLD9BKLoZ770z5eVOO+FR6mqQxTnsEbMJTSYdIwxZXj9OG55gTd7FO7TYb6ABbpRBRWG/qP/AKH403wEwA8OwtlvbH6CwCphO3REny0pjFhrM3k63LXbrnkFaaqninc2yQ6DWgpZjcLtYc/Xg==",
+      "prevHash": "",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      }
+    },
+    "4": {
+      "id": "4",
+      "uuid": "a336f9f0-e285-45f2-a4ee-ce8b9daf7c2f",
+      "series": "NC",
+      "sequentialNumber": 122,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Nota de crédito referente RC XVE2026/11 — Pagamento total referente à Factura FT XVE2026/132",
+          "quantity": -1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": -1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "2"
+      ],
+      "createdAt": "2026-04-07T16:35:14.428Z",
+      "updatedAt": "2026-04-07T16:36:01.156Z",
+      "hash": "cZ6TZ8N7yWDdEqHk3bazezfJfNkjTstZu+uscl+h7NTh1OUjvBfEvERUOL6s1VVvKF9yWEoBKaTtsRLqtf2jusRAhLga94Ta6K5VfBhUR7j0SQdHUHpNCegaT3jMSxI9w3pV8o2kYSLMbAWa9c+LYVLRGTFQSUWgmgyq/fofBC8VqaHae0d2SK87I4BosdLSrbHCowlD37bkECtE+eCKzB23mg6D2AF6fSXGZbcQNlWhnM6mRunT8THm3IDunB76gG1AMsLBYQsk4BzW9C23Iqw1b3zOb/Cde6AkJ2pVi40huQxywXCemt3394Tr8B0a/nsFFxflc85eSg/Yq3qKAA==",
+      "prevHash": "PYxn1Ts8w1aUn4z27yr2rJnE9i16UNzTLVJj5UDZZqFyamOGI+iPE3WKTVXqWySxN4d8iAozbxU/fUlLINWlB2dFpfmOZBz2505W1RhHxZVyc6c8RmYMAHu/M07VRGaCz2Eop9dsinCHoYNs3tJM8EG2gg8SAgvC726g3nyvoDnYcwRwq1jTBOkL2EvCrF+RddhuZmLD9BKLoZ770z5eVOO+FR6mqQxTnsEbMJTSYdIwxZXj9OG55gTd7FO7TYb6ABbpRBRWG/qP/AKH403wEwA8OwtlvbH6CwCphO3REny0pjFhrM3k63LXbrnkFaaqninc2yQ6DWgpZjcLtYc/Xg==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063422254",
+        "submissionDate": "2026-04-07T16:36:01.156Z",
+        "message": "Already exists",
+        "mode": "online"
+      }
+    },
+    "5": {
+      "id": "5",
+      "uuid": "36d9a79e-4874-4142-b267-974b15eca6dd",
+      "series": "FT",
+      "sequentialNumber": 133,
+      "documentType": "factura",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "debitNoteReason": "",
+      "status": "cancelled",
+      "relatedDocuments": [
+        "6",
+        "7"
+      ],
+      "createdAt": "2026-04-07T16:44:45.543Z",
+      "updatedAt": "2026-04-07T16:45:16.600Z",
+      "hash": "WzNW261wBNsYcZXnk6pUYM0zw3nFAepwLGm6KuuJEULkdbsNF9Cxz/O6FPfCuu635bqwfSdKgfQqiCnZ/kwkL9ZIpJtdtUte5b+Mv2DKUQzUVsWGhzOUNvmHm/fLeaeC9CJ50F9KnkXkxl/kUW0PidIcHKB5VSC5WKg7FlEKi+SbhZ+Bzc85kGf865YSIgW7LnXO9r+FeeBzV0APH+b8+d4mjvDv/XL7+PFm1x1uf5vC7x5O9cWlgo6BCbXj8UK1G9kd2z0WGfBm7JCPAIxJM6MGOIC2keKBuhAYBSx8MCaIDa35CEVC5mcypx8T+3RcIfanmYXp8zSOivkxCpWYBw==",
+      "prevHash": "",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T16:45:16.600Z",
+        "reason": "qqq"
+      }
+    },
+    "6": {
+      "id": "6",
+      "uuid": "73cf5bdd-cbef-403e-82f8-b9a073e6aa79",
+      "series": "RC",
+      "sequentialNumber": 12,
+      "documentType": "recibo",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Pagamento total referente à Factura FT XVE2026/133",
+          "quantity": 1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": 1.14,
+          "vatExemptionReason": "M04"
+        }
+      ],
+      "totals": {
+        "subtotal": 1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": 1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "status": "cancelled",
+      "relatedDocuments": [
+        "5",
+        "8"
+      ],
+      "createdAt": "2026-04-07T16:44:54.036Z",
+      "updatedAt": "2026-04-07T16:45:23.137Z",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T16:45:23.137Z",
+        "reason": "qqq"
+      }
+    },
+    "7": {
+      "id": "7",
+      "uuid": "b34fbf07-e43f-4aaf-abd9-5e36cd6b2863",
+      "series": "NC",
+      "sequentialNumber": 123,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "1231434",
+          "description": "Nota de crédito referente FT XVE2026/133 — New product ",
+          "quantity": -1,
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1,
+        "discount": 0,
+        "vatTotal": -0.14,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": -1,
+            "amount": -0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "5"
+      ],
+      "createdAt": "2026-04-07T16:45:16.577Z",
+      "updatedAt": "2026-04-07T16:46:12.942Z",
+      "hash": "BgXdCCI8jREPTmmXmaJUEP176qR8jH5FcXKyRQPQ72EgWmS57SFOqE8UX39ug9sZBrdeG2O+/B/270FNn2nYzpUddrT5uLjFOKzF5WTCBfSl3RKiiC2gu4sEIB9Kjn6eLRh9z8B6fYBX7dxUfhu1twQTMCiZTt7tktHUKcweKyOjxpvuhviBCPNpgHgT2Ai2HOfF9EAPBixTsKn/v0WfIBUyLXttW83KNtEJ+qkUHJ0ocFGfAvLnVIMG/2lndOgxkQVepGFBJ2/sCftPpLrALTOWeM7duqzDzLWiY+AIsDbRuyHg0jD+Xc/Q3u+5/Oobibj1XqCkEc6JPUwRINgcnA==",
+      "prevHash": "cZ6TZ8N7yWDdEqHk3bazezfJfNkjTstZu+uscl+h7NTh1OUjvBfEvERUOL6s1VVvKF9yWEoBKaTtsRLqtf2jusRAhLga94Ta6K5VfBhUR7j0SQdHUHpNCegaT3jMSxI9w3pV8o2kYSLMbAWa9c+LYVLRGTFQSUWgmgyq/fofBC8VqaHae0d2SK87I4BosdLSrbHCowlD37bkECtE+eCKzB23mg6D2AF6fSXGZbcQNlWhnM6mRunT8THm3IDunB76gG1AMsLBYQsk4BzW9C23Iqw1b3zOb/Cde6AkJ2pVi40huQxywXCemt3394Tr8B0a/nsFFxflc85eSg/Yq3qKAA==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      }
+    },
+    "8": {
+      "id": "8",
+      "uuid": "57ec593c-8f17-4b7d-896d-c66d02d5f39c",
+      "series": "NC",
+      "sequentialNumber": 124,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Nota de crédito referente RC XVE2026/12 — Pagamento total referente à Factura FT XVE2026/133",
+          "quantity": -1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": -1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "6"
+      ],
+      "createdAt": "2026-04-07T16:45:23.117Z",
+      "updatedAt": "2026-04-07T17:09:58.557Z",
+      "hash": "ixCSqFXOlaNG1y2XmJKm1OHbEn0LkC0pkWGWnZGjxkklovEtOKJWL6Wd42ck6cetOGgz8aMPwpLoPeugsPGZ8BtJirxi+pPt9mCWwRsjdzEK8+jbU371qt5Nd4mnbY3rSrXYJEjHEYyOMTh2SeHqTxWkW6S/cKtN3Gb+aVEXXOU8NZJSmHlqVr1E/UDGlDdmZOdoYmfUiIkVLf2RrhtiLldUX2xM0FTd+MDe4VZoZeHGKk7NVG0g+ABXLVhE9k2EACUl4ycDnE61Yf0xXxlrpN/V4n0zlBKNA3yQATcEtPRxP5KniPUAq/iN40HOSMmKkoiBCAvKOap1k8bHyTS1Lw==",
+      "prevHash": "BgXdCCI8jREPTmmXmaJUEP176qR8jH5FcXKyRQPQ72EgWmS57SFOqE8UX39ug9sZBrdeG2O+/B/270FNn2nYzpUddrT5uLjFOKzF5WTCBfSl3RKiiC2gu4sEIB9Kjn6eLRh9z8B6fYBX7dxUfhu1twQTMCiZTt7tktHUKcweKyOjxpvuhviBCPNpgHgT2Ai2HOfF9EAPBixTsKn/v0WfIBUyLXttW83KNtEJ+qkUHJ0ocFGfAvLnVIMG/2lndOgxkQVepGFBJ2/sCftPpLrALTOWeM7duqzDzLWiY+AIsDbRuyHg0jD+Xc/Q3u+5/Oobibj1XqCkEc6JPUwRINgcnA==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      }
+    },
+    "9": {
+      "id": "9",
+      "uuid": "9b197355-780b-4c0f-b72a-5d1bf0a91370",
+      "series": "FT",
+      "sequentialNumber": 134,
+      "documentType": "factura",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "debitNoteReason": "",
+      "status": "cancelled",
+      "relatedDocuments": [
+        "10",
+        "11"
+      ],
+      "createdAt": "2026-04-07T16:52:00.295Z",
+      "updatedAt": "2026-04-07T16:52:17.092Z",
+      "hash": "eS5KxAD8GTADAg8ux0Z30C7YLpH+n7CrKoq4mMH9x3YXBANfnxddFkecbxV8vK5q+6ZZNDu4NzbkIpqtNOkwPN1t5ynFLWVVgV0JfQlWs6tgiqlvXgZf19z/p9sG32KsXF4QeFs4wowvEicOwMUdr7ci0vuaBl1i3NAbEl+ZCeY1Sq19+4Ny0ZnSl85KgGaS2E6deIWm47xwZnjoiFT9/PCgYBwcC3tahhnqldIGj2WbZU0jB0U+TgK2N8d4ZFEUCzH8SnjN8U+iypzYMlpcuoO2EU8MJu4tGrbEzMyhJ93LM1I1LuH8ZLQii2S8DEJ9s+cuCK2G2N/aM7jvocXZaA==",
+      "prevHash": "",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063435413",
+        "submissionDate": "2026-04-07T16:52:09.130Z",
+        "message": "Already exists",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T16:52:17.092Z",
+        "reason": "qqq"
+      }
+    },
+    "10": {
+      "id": "10",
+      "uuid": "0cf770ed-bf52-405b-8aad-dee605209a25",
+      "series": "RC",
+      "sequentialNumber": 13,
+      "documentType": "recibo",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Pagamento total referente à Factura FT XVE2026/134",
+          "quantity": 1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": 1.14,
+          "vatExemptionReason": "M04"
+        }
+      ],
+      "totals": {
+        "subtotal": 1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": 1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "status": "cancelled",
+      "relatedDocuments": [
+        "9",
+        "12"
+      ],
+      "createdAt": "2026-04-07T16:52:03.922Z",
+      "updatedAt": "2026-04-07T16:52:23.409Z",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063435443",
+        "submissionDate": "2026-04-07T16:52:10.799Z",
+        "message": "Auto-submitted successfully (Receipt)"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T16:52:23.409Z",
+        "reason": "qqq"
+      }
+    },
+    "11": {
+      "id": "11",
+      "uuid": "58d33232-9a36-45b7-b939-ce161035570a",
+      "series": "NC",
+      "sequentialNumber": 125,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "1231434",
+          "description": "Nota de crédito referente FT XVE2026/134 — New product ",
+          "quantity": -1,
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1,
+        "discount": 0,
+        "vatTotal": -0.14,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": -1,
+            "amount": -0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "9"
+      ],
+      "createdAt": "2026-04-07T16:52:17.071Z",
+      "updatedAt": "2026-04-07T16:53:17.335Z",
+      "hash": "NLC8FfjtKg8E+ruS9XgU//P3GZ0C3BdIuJe+wOI/c2P3T/acfUROJyLdEAnv+6pInHfSKkMpl+/qCnu70su9eg+MS4eCQQfbeZn5sl7flvQRAIRe2b/v9d3u5607ZmqE9D1vwvZxQ5lnQA5gQYQRz/ia+JwGSiK0OzhqISB8hp+MIQKEcp44Ievw3f9WDb4f0yQ9XB/fs/HA0LtI3m5bsntaLOy507D+UElIaqKlglUmwVgKqfftT7zvCmMiDe0AsLkaifBk46ZU/VGtraWKuwOm30AAC5HMa/lRuxT8O2oGSfaTi80l4IMk2TOrYHsymxK4P9XU5zD39KV2DgbXSA==",
+      "prevHash": "ixCSqFXOlaNG1y2XmJKm1OHbEn0LkC0pkWGWnZGjxkklovEtOKJWL6Wd42ck6cetOGgz8aMPwpLoPeugsPGZ8BtJirxi+pPt9mCWwRsjdzEK8+jbU371qt5Nd4mnbY3rSrXYJEjHEYyOMTh2SeHqTxWkW6S/cKtN3Gb+aVEXXOU8NZJSmHlqVr1E/UDGlDdmZOdoYmfUiIkVLf2RrhtiLldUX2xM0FTd+MDe4VZoZeHGKk7NVG0g+ABXLVhE9k2EACUl4ycDnE61Yf0xXxlrpN/V4n0zlBKNA3yQATcEtPRxP5KniPUAq/iN40HOSMmKkoiBCAvKOap1k8bHyTS1Lw==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063436501",
+        "submissionDate": "2026-04-07T16:53:17.335Z",
+        "message": "Already exists",
+        "mode": "online"
+      }
+    },
+    "12": {
+      "id": "12",
+      "uuid": "3a33fffd-a872-4025-b4ef-89752cb80696",
+      "series": "NC",
+      "sequentialNumber": 126,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Nota de crédito referente RC XVE2026/13 — Pagamento total referente à Factura FT XVE2026/134",
+          "quantity": -1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": -1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "10"
+      ],
+      "createdAt": "2026-04-07T16:52:23.389Z",
+      "updatedAt": "2026-04-07T16:53:13.444Z",
+      "hash": "NE5UzGQZALmXzVKdI5wX3fpJa4o21a1f+ckFbxo9UBzUHhKeM6UmisD8/JI1486oKuac0RDzwMWaur9XkA21YJJgqMc8ZPiM1aDf8hBUMd4mIvJ5Nj2ufEkIhHd2GP6Xw5bFNdiY7NF7QkxqsSkJYQCRLN+YGDNgIFQ2jiVbopntibkX/GbVRi2xzPRAaU4aAlR7cbM6dZ58El/E9eXDFm1dhrqfKnW9OIwd/gY94sNqxv9Q2vuKZJFEO6FaMPFr0PzPLSol64OJEXB9ozycrErM/lqF7ZcZ900EO1JuV7x27tQ+esKs843ikl2XTbOMYrmggOilDjc9nARZmSLK6Q==",
+      "prevHash": "NLC8FfjtKg8E+ruS9XgU//P3GZ0C3BdIuJe+wOI/c2P3T/acfUROJyLdEAnv+6pInHfSKkMpl+/qCnu70su9eg+MS4eCQQfbeZn5sl7flvQRAIRe2b/v9d3u5607ZmqE9D1vwvZxQ5lnQA5gQYQRz/ia+JwGSiK0OzhqISB8hp+MIQKEcp44Ievw3f9WDb4f0yQ9XB/fs/HA0LtI3m5bsntaLOy507D+UElIaqKlglUmwVgKqfftT7zvCmMiDe0AsLkaifBk46ZU/VGtraWKuwOm30AAC5HMa/lRuxT8O2oGSfaTi80l4IMk2TOrYHsymxK4P9XU5zD39KV2DgbXSA==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063436413",
+        "submissionDate": "2026-04-07T16:53:13.443Z",
+        "message": "Already exists",
+        "mode": "online"
+      }
+    },
+    "13": {
+      "id": "13",
+      "uuid": "0853522f-be21-439c-b8a7-cd6da209d288",
+      "series": "FT",
+      "sequentialNumber": 135,
+      "documentType": "factura",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "debitNoteReason": "",
+      "status": "cancelled",
+      "relatedDocuments": [
+        "14",
+        "15"
+      ],
+      "createdAt": "2026-04-07T17:09:41.186Z",
+      "updatedAt": "2026-04-07T17:10:02.045Z",
+      "hash": "XRDwcTyckWOHqYrx5Rykbz0h6NjCXdGO+Niojt0SpTp5UI8cHcagfMppBBA4K19YwZjyZut7XUbvCjhzYduNXsLG/jg+lltXHzRwTWInzRVMCNXXPT7b5vaQGC0oWpWB5PlaAtdDY87AnrrN5bXwb0OeSRNoBTxrjeoNIMXe8ghadnGC+d6P0/X3SKl1VMhEisEPaaNEyez4wbTa5kIxBiumMQmEElGrIOGoCSu6cGx6PGP5uJFxl8oPE8ljEA66SDvBTY6pyF6I47xPLhXKWpWOtr32hgLL6dtyQD+68utPpqVQnN25HAFlS5zjLpLKRCiVpZ8z1ENe6bDcb/wgww==",
+      "prevHash": "",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063447530",
+        "submissionDate": "2026-04-07T17:09:47.819Z",
+        "message": "Auto-submitted successfully (Origin)",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T17:10:02.045Z",
+        "reason": "qqq"
+      }
+    },
+    "14": {
+      "id": "14",
+      "uuid": "4cc44b6d-7d86-4bf0-b0ca-0f0b2d911cc9",
+      "series": "RC",
+      "sequentialNumber": 14,
+      "documentType": "recibo",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Pagamento total referente à Factura FT XVE2026/135",
+          "quantity": 1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": 1.14,
+          "vatExemptionReason": "M04"
+        }
+      ],
+      "totals": {
+        "subtotal": 1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": 1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "status": "cancelled",
+      "relatedDocuments": [
+        "13",
+        "16"
+      ],
+      "createdAt": "2026-04-07T17:09:45.666Z",
+      "updatedAt": "2026-04-07T17:10:06.563Z",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063447610",
+        "submissionDate": "2026-04-07T17:09:57.568Z",
+        "message": "Already exists",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T17:10:06.563Z",
+        "reason": "1111"
+      }
+    },
+    "15": {
+      "id": "15",
+      "uuid": "4481b10f-aad9-4935-8e66-ea6de01ec771",
+      "series": "NC",
+      "sequentialNumber": 127,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "1231434",
+          "description": "Nota de crédito referente FT XVE2026/135 — New product ",
+          "quantity": -1,
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1,
+        "discount": 0,
+        "vatTotal": -0.14,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": -1,
+            "amount": -0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "13"
+      ],
+      "createdAt": "2026-04-07T17:10:02.024Z",
+      "updatedAt": "2026-04-07T17:10:02.045Z",
+      "hash": "cqf0SljfX99lXqWSRX2dkqCP+uCGJrReJsKr5zqX1enLvftEUHWl6pIus3liFZUYT9mESrtUgLM9Acml2q4+t2Ada3M7615ZGSReqNntaf4n6CuHFhzwgJ6L7yUtNCv0KzloWyfJnwDmxsJx39AFdyjxO79eA2pUvXc3eDZOxGkhlhmQh0VEF44z8rLTc6qMgFYu6XzVd3SIWAPT7Hmx2HAbibVM3zYaVUQxK25CHuWwraPWtiC6LxKUgFCTUbkqB2/fWNCvWBL+zXjQeC8ozEYPTXNIm8YUVQFAjF9+K9UyahdCyAHeDntPQzNCsSR5GaemQTpd8VlxAW1b5z2j2w==",
+      "prevHash": "NE5UzGQZALmXzVKdI5wX3fpJa4o21a1f+ckFbxo9UBzUHhKeM6UmisD8/JI1486oKuac0RDzwMWaur9XkA21YJJgqMc8ZPiM1aDf8hBUMd4mIvJ5Nj2ufEkIhHd2GP6Xw5bFNdiY7NF7QkxqsSkJYQCRLN+YGDNgIFQ2jiVbopntibkX/GbVRi2xzPRAaU4aAlR7cbM6dZ58El/E9eXDFm1dhrqfKnW9OIwd/gY94sNqxv9Q2vuKZJFEO6FaMPFr0PzPLSol64OJEXB9ozycrErM/lqF7ZcZ900EO1JuV7x27tQ+esKs843ikl2XTbOMYrmggOilDjc9nARZmSLK6Q==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      }
+    },
+    "16": {
+      "id": "16",
+      "uuid": "3482a635-98f7-4d21-8fdc-65690c3ae203",
+      "series": "NC",
+      "sequentialNumber": 128,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Nota de crédito referente RC XVE2026/14 — Pagamento total referente à Factura FT XVE2026/135",
+          "quantity": -1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": -1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "14"
+      ],
+      "createdAt": "2026-04-07T17:10:06.534Z",
+      "updatedAt": "2026-04-07T17:17:27.223Z",
+      "hash": "vRVA7vPNmRkW7k0E4elMEcAcatjG7y9C7dg97A9rNpmECz7p+bzLJS4FVBSf27K/ldcw5prH+0+ujLFuKa+1/x+Iovxabdy2d7nLHH5odh/UTbJUKuzwF/60ViFp/9B3BUyOLnn1ZNSxMYZ8ruJSMe7R1DcwlxZgqNOzF07IGuQ2mo052RBeUixqDdzcgnixSWJMEl+Ez9RfHypSt9M6KKUftrMi4Cpuq7rvLLQExAe2RbDV7ySrcReS0R4N3zBUpzlXPqiLU2+INI6HMwBYv7nT2p9oUevdwYrJqRLL7H1L5PifGrwAYkDP7/jZbAP0CL0b/8MCTofsHF8Rz9PB1Q==",
+      "prevHash": "cqf0SljfX99lXqWSRX2dkqCP+uCGJrReJsKr5zqX1enLvftEUHWl6pIus3liFZUYT9mESrtUgLM9Acml2q4+t2Ada3M7615ZGSReqNntaf4n6CuHFhzwgJ6L7yUtNCv0KzloWyfJnwDmxsJx39AFdyjxO79eA2pUvXc3eDZOxGkhlhmQh0VEF44z8rLTc6qMgFYu6XzVd3SIWAPT7Hmx2HAbibVM3zYaVUQxK25CHuWwraPWtiC6LxKUgFCTUbkqB2/fWNCvWBL+zXjQeC8ozEYPTXNIm8YUVQFAjF9+K9UyahdCyAHeDntPQzNCsSR5GaemQTpd8VlxAW1b5z2j2w==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      }
+    },
+    "17": {
+      "id": "17",
+      "uuid": "81428b8e-acf7-4dfd-89e9-6e4056d8271f",
+      "series": "FT",
+      "sequentialNumber": 136,
+      "documentType": "factura",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "debitNoteReason": "",
+      "status": "cancelled",
+      "relatedDocuments": [
+        "18",
+        "19"
+      ],
+      "createdAt": "2026-04-07T17:17:08.324Z",
+      "updatedAt": "2026-04-07T17:17:27.201Z",
+      "hash": "dGZ3kz1um6dL+ibko6IZPNstaqzygHeyhIr3/oVK3bH2z0ZRmw5xYelUfPdNDA9zPHcw3itePOQm7sk4M0a/2tn5LUepPe8wCuqqQuEmzajNQg0NdMKrzVj/euANFw2kAkzmNvg3vcqdOKh9slvoNyoHrzGe6/xwuDNa9AYpHEgAvH3sa1cLcc5+0w9EFFyBFhllEox9aC6QvwqtsnHeCgrxTu+oRMY2htPDWz6PuAhFesuOTSBAscEG054640+7PwQ0S/7rhvK8JB9NKPfKumTqyKj21EBqi0ifEbm4dEQ6GitCFLcuOkqQi0p9LFRFEciDq55TZKRTuZlnshua7w==",
+      "prevHash": "",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063452775",
+        "submissionDate": "2026-04-07T17:17:12.718Z",
+        "message": "Auto-submitted successfully (Origin)",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T17:17:27.201Z",
+        "reason": "qqq"
+      }
+    },
+    "18": {
+      "id": "18",
+      "uuid": "428bd0f3-5306-459a-8359-6a750e0f1764",
+      "series": "RC",
+      "sequentialNumber": 15,
+      "documentType": "recibo",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Pagamento total referente à Factura FT XVE2026/136",
+          "quantity": 1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": 1.14,
+          "vatExemptionReason": "M04"
+        }
+      ],
+      "totals": {
+        "subtotal": 1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": 1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "status": "cancelled",
+      "relatedDocuments": [
+        "17",
+        "20"
+      ],
+      "createdAt": "2026-04-07T17:17:10.921Z",
+      "updatedAt": "2026-04-07T17:17:31.308Z",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063452788",
+        "submissionDate": "2026-04-07T17:17:14.506Z",
+        "message": "Auto-submitted successfully (Receipt)"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T17:17:31.308Z",
+        "reason": "qqq"
+      }
+    },
+    "19": {
+      "id": "19",
+      "uuid": "331bca0d-7b33-4ca8-8248-b9011a36835d",
+      "series": "NC",
+      "sequentialNumber": 200,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "1231434",
+          "description": "Nota de crédito referente FT XVE2026/136 — New product ",
+          "quantity": -1,
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1,
+        "discount": 0,
+        "vatTotal": -0.14,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": -1,
+            "amount": -0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "17"
+      ],
+      "createdAt": "2026-04-07T17:17:27.176Z",
+      "updatedAt": "2026-04-07T17:17:27.200Z",
+      "hash": "AHcKBQvbdpWQ8gcz2WyZPR2eVUQ6GX8HlAShl4JNDJyBwMYlgGnCFRmWGfw3RfFieQsMlx1OSJ8VjQAHhXe2q/MVWkoEzRP0npWngPCyeFB823WN6S/sJQSWuI9ApXt2dC4SiRCz9YUasta9Em2QaCOAvu9MhCCCi+6OeCOzrztlJFiKWxz8tkXHEIc/5K0unER7SM43s/0GPRYlRNWrotDTI0UbIP4LqEvecLCXveH1beP4VwBr0S+nk55rMV6qm1pKvADO604KW/dIx/4MeyGZF6lyAH5VP5tr06HyS5PSoseeBoXUC4h3op/kU7rd/2NUH5BakzW2XUvNDH7VYQ==",
+      "prevHash": "vRVA7vPNmRkW7k0E4elMEcAcatjG7y9C7dg97A9rNpmECz7p+bzLJS4FVBSf27K/ldcw5prH+0+ujLFuKa+1/x+Iovxabdy2d7nLHH5odh/UTbJUKuzwF/60ViFp/9B3BUyOLnn1ZNSxMYZ8ruJSMe7R1DcwlxZgqNOzF07IGuQ2mo052RBeUixqDdzcgnixSWJMEl+Ez9RfHypSt9M6KKUftrMi4Cpuq7rvLLQExAe2RbDV7ySrcReS0R4N3zBUpzlXPqiLU2+INI6HMwBYv7nT2p9oUevdwYrJqRLL7H1L5PifGrwAYkDP7/jZbAP0CL0b/8MCTofsHF8Rz9PB1Q==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      }
+    },
+    "20": {
+      "id": "20",
+      "uuid": "f456e318-222a-439b-a74c-1085a431e8f0",
+      "series": "NC",
+      "sequentialNumber": 201,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Nota de crédito referente RC XVE2026/15 — Pagamento total referente à Factura FT XVE2026/136",
+          "quantity": -1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": -1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "18"
+      ],
+      "createdAt": "2026-04-07T17:17:31.286Z",
+      "updatedAt": "2026-04-07T17:21:26.142Z",
+      "hash": "MjYlQQ0vcdTNG1AdhdhX80XHzw1kCvqH+WFayUI9HzQzu94J+KGkdoW/g1+x6W5hSQSOCe4UcPFry7rT1eA/fWe1/A1CXNxM+W54lRt0gHixJOpYe/oG1bGTMXc3daImzb6q9CMTf3lYairJMnUrU1drKQEmHEVPytmNAclPgEekPbnCp+JT0bn/O9/6TDvA3io/SE2sKUgtKIG96vqUioecG2eXJohQvYysRisE4XdMyQ2i+8tAApUQWnbGRpsHhaNBMyy1Jyums2KULJEtO5YpIR7DYWxnlP+2EfBbvwE2++YPQRnJnU08YqpfyS7AEAe79uLKB0YhfbmDGPpZFA==",
+      "prevHash": "AHcKBQvbdpWQ8gcz2WyZPR2eVUQ6GX8HlAShl4JNDJyBwMYlgGnCFRmWGfw3RfFieQsMlx1OSJ8VjQAHhXe2q/MVWkoEzRP0npWngPCyeFB823WN6S/sJQSWuI9ApXt2dC4SiRCz9YUasta9Em2QaCOAvu9MhCCCi+6OeCOzrztlJFiKWxz8tkXHEIc/5K0unER7SM43s/0GPRYlRNWrotDTI0UbIP4LqEvecLCXveH1beP4VwBr0S+nk55rMV6qm1pKvADO604KW/dIx/4MeyGZF6lyAH5VP5tr06HyS5PSoseeBoXUC4h3op/kU7rd/2NUH5BakzW2XUvNDH7VYQ==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      }
+    },
+    "21": {
+      "id": "21",
+      "uuid": "c86d4a36-5561-4622-9904-d3ed7baf945a",
+      "series": "FT",
+      "sequentialNumber": 137,
+      "documentType": "factura",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "debitNoteReason": "",
+      "status": "cancelled",
+      "relatedDocuments": [
+        "22",
+        "23"
+      ],
+      "createdAt": "2026-04-07T17:21:07.396Z",
+      "updatedAt": "2026-04-07T17:21:24.485Z",
+      "hash": "x1+/EX1NYMYhIyp9oX7JLJdhinv7OV8RkvoQPe2YqxwzjVBukNemUoUADaUOi35qRMuKSw20uFtQ73LjIIuzDD4s6iKdAS9upfWzB//4r7T1OPVgRVjX5HiF8n73Wsw8Y2ecCYUjGgSm7bJf3PS/Ibz+aDNT6EB9sjbpGcfbR/sZKogm0RdmXDm9S/RMdDDMF3fyc15K7jNp1Y/ai8t81AFx4lkcATABh+egGpJc3XJklExAwf9xLcmAvCDuX69TKLiseTiOIMlDSuYdfUMBAOpoe9mcHL/iJdFbuAFJXVIgJjDDEpMHYI8qErc8sQBv+W2ncUOjMGp7OkxLEv/9cA==",
+      "prevHash": "",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063455263",
+        "submissionDate": "2026-04-07T17:21:12.675Z",
+        "message": "Auto-submitted successfully (Origin)",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T17:21:24.485Z",
+        "reason": "qqq"
+      }
+    },
+    "22": {
+      "id": "22",
+      "uuid": "25a13f83-633b-4443-a552-78dc0d0ad04d",
+      "series": "RC",
+      "sequentialNumber": 16,
+      "documentType": "recibo",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Pagamento total referente à Factura FT XVE2026/137",
+          "quantity": 1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": 1.14,
+          "vatExemptionReason": "M04"
+        }
+      ],
+      "totals": {
+        "subtotal": 1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": 1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "status": "cancelled",
+      "relatedDocuments": [
+        "21",
+        "24"
+      ],
+      "createdAt": "2026-04-07T17:21:10.883Z",
+      "updatedAt": "2026-04-07T17:21:27.955Z",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063455364",
+        "submissionDate": "2026-04-07T17:21:22.389Z",
+        "message": "Already exists",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T17:21:27.955Z",
+        "reason": "qqq"
+      }
+    },
+    "23": {
+      "id": "23",
+      "uuid": "0e584362-72b7-426d-bd98-cc7c43f80203",
+      "series": "NC",
+      "sequentialNumber": 129,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "1231434",
+          "description": "Nota de crédito referente FT XVE2026/137 — New product ",
+          "quantity": -1,
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1,
+        "discount": 0,
+        "vatTotal": -0.14,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": -1,
+            "amount": -0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "21"
+      ],
+      "createdAt": "2026-04-07T17:21:24.465Z",
+      "updatedAt": "2026-04-07T17:24:49.999Z",
+      "hash": "iXtsRnkWLroUxYP8b1lOSM1GnT/mG0GAuNl+1wAOHSM0UY7HIALTIvLvIdwL4exMDmVb/KiF+AfO+DpKP4tjt0GnqtZl3IEHBt59eNJ7eG5U1KivFZnxrjHG2iCESJSNYFOYQICKew+BAc+yAEJ190yBkyFSY5J+A59G2CbXb/EpYEFRE1U1KlWXTLkPJc5Xnb3FiEPAkbZuR4P3IjORbHIm5bUGn1DdxkRnK/QZoXVMMZ8OLG/UlyckyHlCoh0M3fjWw/ICsf2hZ0teMDEUyosh7A4jp2r3OTFvZqE7ZifEVBXY2v05kcR+7bfQU1C045dcEL6u6ZCEs2kCTaWOgw==",
+      "prevHash": "vRVA7vPNmRkW7k0E4elMEcAcatjG7y9C7dg97A9rNpmECz7p+bzLJS4FVBSf27K/ldcw5prH+0+ujLFuKa+1/x+Iovxabdy2d7nLHH5odh/UTbJUKuzwF/60ViFp/9B3BUyOLnn1ZNSxMYZ8ruJSMe7R1DcwlxZgqNOzF07IGuQ2mo052RBeUixqDdzcgnixSWJMEl+Ez9RfHypSt9M6KKUftrMi4Cpuq7rvLLQExAe2RbDV7ySrcReS0R4N3zBUpzlXPqiLU2+INI6HMwBYv7nT2p9oUevdwYrJqRLL7H1L5PifGrwAYkDP7/jZbAP0CL0b/8MCTofsHF8Rz9PB1Q==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      }
+    },
+    "24": {
+      "id": "24",
+      "uuid": "4b64c511-97a0-4fb0-b87c-c970aa7db11f",
+      "series": "NC",
+      "sequentialNumber": 130,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Nota de crédito referente RC XVE2026/16 — Pagamento total referente à Factura FT XVE2026/137",
+          "quantity": -1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": -1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "22"
+      ],
+      "createdAt": "2026-04-07T17:21:27.935Z",
+      "updatedAt": "2026-04-07T17:34:16.654Z",
+      "hash": "IzwdxFYrhTugV+VtGrjPzl5i3HtHrD5rVfiGYDJ7tK9cyP9cciyJnJ8isDV++wQ7umt1Ql5dAWKGlP+9FEiO7BqwCKrH/5GZLyeWED+SqSX5p8vHwaZuTXVjxnYpXm4gw86hhxaI5T0e2Ts/5OyPGWyJOoYlaewriDug1e9kYQNAqek05M1pSbQEigFXy3nF95apFQpHupFRrD2VMmcwv/445hcOZUMWgztjThk0HAuk4HsWOmgK4sMgDkd9M7AKxut+2KTVJ6R7MsrNnelSiPKgRz9fNoDjlmoLPKBLMAC7d/U5zgKFt1b+Q85EY7DrrkXVyW4IhM3XwKb3Fj1QXQ==",
+      "prevHash": "iXtsRnkWLroUxYP8b1lOSM1GnT/mG0GAuNl+1wAOHSM0UY7HIALTIvLvIdwL4exMDmVb/KiF+AfO+DpKP4tjt0GnqtZl3IEHBt59eNJ7eG5U1KivFZnxrjHG2iCESJSNYFOYQICKew+BAc+yAEJ190yBkyFSY5J+A59G2CbXb/EpYEFRE1U1KlWXTLkPJc5Xnb3FiEPAkbZuR4P3IjORbHIm5bUGn1DdxkRnK/QZoXVMMZ8OLG/UlyckyHlCoh0M3fjWw/ICsf2hZ0teMDEUyosh7A4jp2r3OTFvZqE7ZifEVBXY2v05kcR+7bfQU1C045dcEL6u6ZCEs2kCTaWOgw==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      }
+    },
+    "25": {
+      "id": "25",
+      "uuid": "255206bb-757b-4621-af48-e18390a49e09",
+      "series": "FT",
+      "sequentialNumber": 138,
+      "documentType": "factura",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "debitNoteReason": "",
+      "status": "cancelled",
+      "relatedDocuments": [
+        "26",
+        "27"
+      ],
+      "createdAt": "2026-04-07T17:34:28.483Z",
+      "updatedAt": "2026-04-07T17:34:48.452Z",
+      "hash": "n4viN+TP5/QeH+ZYARVrthAfJcasQ1WL7zLnjp4g8FuHZHEIeDo8YRyVR3lDox88Iqe7DAaiSF1kufi/p/OvfzwRHYteEJf4zMx3UTY7XwsLtX13WtJEx/ZhNwjq4aBrHbvBJxEMqob6kOUmQ+CmoyszlWLZxSFUdoByNRHF9/MZfH/OwMxfriF5hDRlcTKnbOJcQaIeFwCWQNQrfTW200c6fITQVhtsxpTyUF67PdTyXKvPjcSLNw6SAV9m6M68fQqTTSb7/dHglq3527jaCFUqW3SaoEFFmb3sIZ/pRUGBvmkJ1CNh/bRpXg1AGJMJnv14mc0e4RbwlfWjC4iTmA==",
+      "prevHash": "",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063464659",
+        "submissionDate": "2026-04-07T17:34:33.082Z",
+        "message": "Auto-submitted successfully (Origin)",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T17:34:48.452Z",
+        "reason": "qqqq"
+      }
+    },
+    "26": {
+      "id": "26",
+      "uuid": "a01aa007-5f07-4627-8789-25e44d16bc20",
+      "series": "RC",
+      "sequentialNumber": 17,
+      "documentType": "recibo",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Pagamento total referente à Factura FT XVE2026/138",
+          "quantity": 1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": 1.14,
+          "vatExemptionReason": "M04"
+        }
+      ],
+      "totals": {
+        "subtotal": 1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": 1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "status": "cancelled",
+      "relatedDocuments": [
+        "25",
+        "28"
+      ],
+      "createdAt": "2026-04-07T17:34:31.294Z",
+      "updatedAt": "2026-04-07T17:34:52.802Z",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T17:34:52.802Z",
+        "reason": "qqqqq"
+      }
+    },
+    "27": {
+      "id": "27",
+      "uuid": "dbafa7f5-f11a-4ff6-ad84-f4818c6abc2c",
+      "series": "NC",
+      "sequentialNumber": 131,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "1231434",
+          "description": "Nota de crédito referente FT XVE2026/138 — New product ",
+          "quantity": -1,
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1,
+        "discount": 0,
+        "vatTotal": -0.14,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": -1,
+            "amount": -0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "25"
+      ],
+      "createdAt": "2026-04-07T17:34:48.430Z",
+      "updatedAt": "2026-04-07T17:50:59.247Z",
+      "hash": "Iqd2fKTocSz0TCE8Isc6/w1jiBNrHgN295VuvAqNL8SQyefEl/XE0Vp8SGfUt2IUFDKMGxRx0TF5jWRNetYc0dFw1hp9BUbxW0VgaylR/ceGIQAYqE3JooUXif3XPXKMWMTAo0PdrImkZMit5MKXvQxGEnpZeL5vDXCeW2skGXop9dJ8eAOvK7Kz8LdZFXxH95OGWq744nL4VmLFtPbCBh651CuI4al6ctiS76xFkW2jxmUHQU9+fzlkk7i2j43ZeFIiv+kWGbg1kn8O0Ygv5XN20BxP2G4dmL+1Pm8ASm0mFIon6oRZEC1z+Ce37tT/ipGpSutkCUy97otiSOH6yw==",
+      "prevHash": "IzwdxFYrhTugV+VtGrjPzl5i3HtHrD5rVfiGYDJ7tK9cyP9cciyJnJ8isDV++wQ7umt1Ql5dAWKGlP+9FEiO7BqwCKrH/5GZLyeWED+SqSX5p8vHwaZuTXVjxnYpXm4gw86hhxaI5T0e2Ts/5OyPGWyJOoYlaewriDug1e9kYQNAqek05M1pSbQEigFXy3nF95apFQpHupFRrD2VMmcwv/445hcOZUMWgztjThk0HAuk4HsWOmgK4sMgDkd9M7AKxut+2KTVJ6R7MsrNnelSiPKgRz9fNoDjlmoLPKBLMAC7d/U5zgKFt1b+Q85EY7DrrkXVyW4IhM3XwKb3Fj1QXQ==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      }
+    },
+    "28": {
+      "id": "28",
+      "uuid": "7c7de937-c94a-498b-bbee-a195cf7a949b",
+      "series": "NC",
+      "sequentialNumber": 132,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Nota de crédito referente RC XVE2026/17 — Pagamento total referente à Factura FT XVE2026/138",
+          "quantity": -1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": -1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "26"
+      ],
+      "createdAt": "2026-04-07T17:34:52.779Z",
+      "updatedAt": "2026-04-07T17:35:23.807Z",
+      "hash": "OpVbE04spvERwbb3QNQiDZz32ZVCPCF8EKb24Oy5YxjP1UQFCycKlcoW8C/oECeYVXxftcnhMd4Q3IYHiCz5B+QrZ3JuMPAjNpoacasUx7esrfnn2dL1yjkkkKXBBG4mIG1W3keGTWnt5xGn8zDcL/KTnsN0senZlx9iAK706OVx8qm5Xoi4wwtxQ42Q6drMMNWrR/9kd7Gb6OCUPs6bLN3BCM5GVMDgVsGDBMr2xwpM37wYgS+rl4UVi5xzPpaW2P4ZWfw43pD+1N48sigy2k13x4upT7XH04QEdvAbexMlx1q5/y6fAM3Z8xlr6a7OA1cSOj/cLKe98ws9vcSe5w==",
+      "prevHash": "Iqd2fKTocSz0TCE8Isc6/w1jiBNrHgN295VuvAqNL8SQyefEl/XE0Vp8SGfUt2IUFDKMGxRx0TF5jWRNetYc0dFw1hp9BUbxW0VgaylR/ceGIQAYqE3JooUXif3XPXKMWMTAo0PdrImkZMit5MKXvQxGEnpZeL5vDXCeW2skGXop9dJ8eAOvK7Kz8LdZFXxH95OGWq744nL4VmLFtPbCBh651CuI4al6ctiS76xFkW2jxmUHQU9+fzlkk7i2j43ZeFIiv+kWGbg1kn8O0Ygv5XN20BxP2G4dmL+1Pm8ASm0mFIon6oRZEC1z+Ce37tT/ipGpSutkCUy97otiSOH6yw==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063465125",
+        "submissionDate": "2026-04-07T17:35:23.806Z",
+        "message": "Already exists",
+        "mode": "online"
+      }
+    },
+    "29": {
+      "id": "29",
+      "uuid": "802f7794-aecf-49df-9ed5-cabf21bf40fd",
+      "series": "FT",
+      "sequentialNumber": 139,
+      "documentType": "factura",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "debitNoteReason": "",
+      "status": "cancelled",
+      "relatedDocuments": [
+        "30",
+        "32"
+      ],
+      "createdAt": "2026-04-07T17:51:08.447Z",
+      "updatedAt": "2026-04-07T17:52:11.855Z",
+      "hash": "iPzdb0FK76ML2EOuqC1UZq4GHOkDVqHegw1HW0pN3pnpMC8a7JIbTzOFMRk1H2wcQpxWLBHMeA/JkeKCFxZ6R2HGiiS80PlbMOazn5CEnKUbHdwbLpyolw+C24TDH9G+FnrVwtXWdEYM7cHrEfx12ZaNKdMzNnR/Pi9golYkvpSrkxc6Cq6P7WofldP9G8x+tJRXXU0yZf06z8yg4oLc4H+4z0oucZm6yez6A6Fy6DLSzKsTKaUHdMccuf0XUvghivBlOCmQnsEMPKPd0HKQCHS6fTz1FPnJ5lZ9sgR4y1ykYTqPwcJn/ow5yACeo86MlkgbKXKnPq+AM3vl5YsrLA==",
+      "prevHash": "",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T17:52:11.855Z",
+        "reason": "qqq"
+      }
+    },
+    "30": {
+      "id": "30",
+      "uuid": "2eb20f31-8edf-4d7a-9125-779b70b4ad35",
+      "series": "RC",
+      "sequentialNumber": 18,
+      "documentType": "recibo",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Pagamento total referente à Factura FT XVE2026/139",
+          "quantity": 1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": 1.14,
+          "vatExemptionReason": "M04"
+        }
+      ],
+      "totals": {
+        "subtotal": 1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": 1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "status": "cancelled",
+      "relatedDocuments": [
+        "29",
+        "31"
+      ],
+      "createdAt": "2026-04-07T17:51:11.173Z",
+      "updatedAt": "2026-04-07T17:52:02.569Z",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T17:52:01.676Z",
+        "reason": "qqq"
+      }
+    },
+    "31": {
+      "id": "31",
+      "uuid": "b31ccd29-dd87-4812-b1a6-8ff986b9fd9a",
+      "series": "NC",
+      "sequentialNumber": 133,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Nota de crédito referente RC XVE2026/18 — Pagamento total referente à Factura FT XVE2026/139",
+          "quantity": -1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": -1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "30"
+      ],
+      "createdAt": "2026-04-07T17:52:01.654Z",
+      "updatedAt": "2026-04-07T17:54:53.788Z",
+      "hash": "xI9hCvghWr1hgb+Pkc82lVna0XbGgkWJf3yN+rABCCHnkVpQ2bzunFXJuDxk1UUGWkA/w0z2YzWz+D3wSI8TIcFnNOW8UfGfWUY0veSDOGvPunuLOOGVGpc+bp04qE6XhQSOWo5rx76qwcmLS3qlcWmoSHTMirTkeWTCE3DKBcyhn9qaIiinjewvCzXM4pm+FLRliaVTI3RnSrwb3wJG8zbdPGtvIAol1R24fPQnE7JHP5oucusIhsqInL5h9+zIXmv6PNs+O8QQsjcTDfUOjyhyg+DzkNbe3OuLLOzGg59x6RnC6/MWbmqAn+NCaZ/3y9RExyJDCk/BtrY9T/FjZg==",
+      "prevHash": "OpVbE04spvERwbb3QNQiDZz32ZVCPCF8EKb24Oy5YxjP1UQFCycKlcoW8C/oECeYVXxftcnhMd4Q3IYHiCz5B+QrZ3JuMPAjNpoacasUx7esrfnn2dL1yjkkkKXBBG4mIG1W3keGTWnt5xGn8zDcL/KTnsN0senZlx9iAK706OVx8qm5Xoi4wwtxQ42Q6drMMNWrR/9kd7Gb6OCUPs6bLN3BCM5GVMDgVsGDBMr2xwpM37wYgS+rl4UVi5xzPpaW2P4ZWfw43pD+1N48sigy2k13x4upT7XH04QEdvAbexMlx1q5/y6fAM3Z8xlr6a7OA1cSOj/cLKe98ws9vcSe5w==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.007Z",
+        "mode": "online"
+      }
+    },
+    "32": {
+      "id": "32",
+      "uuid": "9feabcc0-7d30-4865-acc3-c33914cf36a3",
+      "series": "NC",
+      "sequentialNumber": 134,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "1231434",
+          "description": "Nota de crédito referente FT XVE2026/139 — New product ",
+          "quantity": -1,
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1,
+        "discount": 0,
+        "vatTotal": -0.14,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": -1,
+            "amount": -0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "29"
+      ],
+      "createdAt": "2026-04-07T17:52:11.831Z",
+      "updatedAt": "2026-04-07T18:11:17.186Z",
+      "hash": "pJOTNprL0OESaTL14YUuPX/97klWpBbclczhsLBoEB0G5bMsmYnC1xu9NJBueO8b1fpsKdcHANrMJ2LTw+zSs0450JRWSAOZXYxgU29xPNJiHZqm23bQUna6kc673elcAEEP6/kQFs5FLOsbWSOoMS9xcrEM7IczfU61ERd4BThQdfV6w53Px/3JtnqIoH6p40P0uVN8DFnt89Vjt7qzPKNufYvyBxfvPUsg2HDJe39HKiubamUfJjZqrwFLRFgtBVyuh159okRIMyvnFa+5OZ8M1Ix9NFM1DhjfVokvNPLAJ6UcH+GWFmhaBrPCIL9dS31fIxYG3bis630ibvqbDw==",
+      "prevHash": "xI9hCvghWr1hgb+Pkc82lVna0XbGgkWJf3yN+rABCCHnkVpQ2bzunFXJuDxk1UUGWkA/w0z2YzWz+D3wSI8TIcFnNOW8UfGfWUY0veSDOGvPunuLOOGVGpc+bp04qE6XhQSOWo5rx76qwcmLS3qlcWmoSHTMirTkeWTCE3DKBcyhn9qaIiinjewvCzXM4pm+FLRliaVTI3RnSrwb3wJG8zbdPGtvIAol1R24fPQnE7JHP5oucusIhsqInL5h9+zIXmv6PNs+O8QQsjcTDfUOjyhyg+DzkNbe3OuLLOzGg59x6RnC6/MWbmqAn+NCaZ/3y9RExyJDCk/BtrY9T/FjZg==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.008Z",
+        "mode": "online"
+      }
+    },
+    "33": {
+      "id": "33",
+      "uuid": "3c1d704e-2d78-482d-8de1-fbe8533a20b9",
+      "series": "FT",
+      "sequentialNumber": 140,
+      "documentType": "factura",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "debitNoteReason": "",
+      "status": "cancelled",
+      "relatedDocuments": [
+        "34",
+        "35"
+      ],
+      "createdAt": "2026-04-07T18:11:32.945Z",
+      "updatedAt": "2026-04-07T18:12:00.088Z",
+      "hash": "UiRXCINFhg4wyCv22fVIZcKPiKnoo0trrSzHrXoqLVnM2ZSe66ygJ6ysmVN1s7uRYPMpgZCMVr7PsPq0kJP395FlOc8v1c5pqWzqajxf+xks9ZB4m9VTCDG8aZbFYSPkNAilU6Oo/oD8yUovPrBL4VK0cfM00fCKOxSgTWhjolhmC5MbMYj+BL0zdgsKNMqPZM5xw/k7oAbLbRD2CixVrfj/efEv3nXTe6ySyGCKb0d1FX0Gx4KXOA3Y10xnKVBcg6LRrjeqwg0rbYR0EJCqreZw9GhKeTR2j9lh8q/jNsIvdEfVfpz9j6mMnbbLOol5gzvlTXdyOP96elsA8jeljA==",
+      "prevHash": "",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.008Z",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T18:12:00.088Z",
+        "reason": "qqqq"
+      }
+    },
+    "34": {
+      "id": "34",
+      "uuid": "4e3245b9-15f4-4e8c-8267-06df9b32996e",
+      "series": "RC",
+      "sequentialNumber": 19,
+      "documentType": "recibo",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Pagamento total referente à Factura FT XVE2026/140",
+          "quantity": 1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": 1.14,
+          "vatExemptionReason": "M04"
+        }
+      ],
+      "totals": {
+        "subtotal": 1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": 1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "status": "cancelled",
+      "relatedDocuments": [
+        "33",
+        "36"
+      ],
+      "createdAt": "2026-04-07T18:11:40.376Z",
+      "updatedAt": "2026-04-07T18:12:04.550Z",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.008Z",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-07T18:12:04.550Z",
+        "reason": "qqq"
+      }
+    },
+    "35": {
+      "id": "35",
+      "uuid": "71745567-904d-4e58-bbd8-3a8cd5803b64",
+      "series": "NC",
+      "sequentialNumber": 135,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "1231434",
+          "description": "Nota de crédito referente FT XVE2026/140 — New product ",
+          "quantity": -1,
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1,
+        "discount": 0,
+        "vatTotal": -0.14,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": -1,
+            "amount": -0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "33"
+      ],
+      "createdAt": "2026-04-07T18:12:00.060Z",
+      "updatedAt": "2026-04-07T18:36:00.198Z",
+      "hash": "AZ3zuE+LzuTwJ+CWkowGwy/9gUhAyJ8yXu3rRWg8vNB3xf5/YNvSaYHj/IkuryNmOcmU3zTjbqSfkZuTLxrLFXFg4n4gIU6hbA76rg7k/fMRWAdywotIFzC72uZ8gxl7yEZVmNz1OynMKUevpnqg5WyiHIiYa6zfR4Z8B95rUEIOe/B8nQK6kjq0vbCm7BOlFxWPuA0ECzSSjLNcs2wx6UW4qLXyWbrD1u6MvsYr/3tu/v4+S4psODdwf58j0DZyvCu8DTRTkTdH5ANah3T5rdJHUGK1DR0uplir6Ea2GXq68/R1g+Eb6unanWj/5F6PlXVEU1+fBA8epSuSSv61Bg==",
+      "prevHash": "pJOTNprL0OESaTL14YUuPX/97klWpBbclczhsLBoEB0G5bMsmYnC1xu9NJBueO8b1fpsKdcHANrMJ2LTw+zSs0450JRWSAOZXYxgU29xPNJiHZqm23bQUna6kc673elcAEEP6/kQFs5FLOsbWSOoMS9xcrEM7IczfU61ERd4BThQdfV6w53Px/3JtnqIoH6p40P0uVN8DFnt89Vjt7qzPKNufYvyBxfvPUsg2HDJe39HKiubamUfJjZqrwFLRFgtBVyuh159okRIMyvnFa+5OZ8M1Ix9NFM1DhjfVokvNPLAJ6UcH+GWFmhaBrPCIL9dS31fIxYG3bis630ibvqbDw==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.008Z",
+        "mode": "online"
+      }
+    },
+    "36": {
+      "id": "36",
+      "uuid": "1672d612-6f36-4dd1-af0e-12b34b66636b",
+      "series": "NC",
+      "sequentialNumber": 136,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Nota de crédito referente RC XVE2026/19 — Pagamento total referente à Factura FT XVE2026/140",
+          "quantity": -1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": -1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-14"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "34"
+      ],
+      "createdAt": "2026-04-07T18:12:04.530Z",
+      "updatedAt": "2026-04-07T18:12:34.493Z",
+      "hash": "r94yOwWyVD1NfLDiMHbL1D2Fvrxjx0XsrfLM8d73hjzk7P17lZmk2ZXZeeYO2oxU5pd4MTSo1fWRsjimevPPUg8Q7tBsAOLh2Mm8k8dNkWzyBH5P+5MlIDDzwH3BjRuVVVcQQN+0odBF8p1KRgZduIwjOI5jSghnxUipKcXLbjzndJsyhN9dNLxWnv1UuE6sE3z37lY0PWnP11db/kppR8TP/rsTliablkHlzussgZ/t7Gw/lHiRnXniLIMO0bSG7oyqXSnrSBPwX0DNEMNdO/YmrL/LHhhc5lUicZeD1SFUCKrfE/za/LB2NSN+nDXQ6UFv686f0NKHZ5gd9ApRzA==",
+      "prevHash": "AZ3zuE+LzuTwJ+CWkowGwy/9gUhAyJ8yXu3rRWg8vNB3xf5/YNvSaYHj/IkuryNmOcmU3zTjbqSfkZuTLxrLFXFg4n4gIU6hbA76rg7k/fMRWAdywotIFzC72uZ8gxl7yEZVmNz1OynMKUevpnqg5WyiHIiYa6zfR4Z8B95rUEIOe/B8nQK6kjq0vbCm7BOlFxWPuA0ECzSSjLNcs2wx6UW4qLXyWbrD1u6MvsYr/3tu/v4+S4psODdwf58j0DZyvCu8DTRTkTdH5ANah3T5rdJHUGK1DR0uplir6Ea2GXq68/R1g+Eb6unanWj/5F6PlXVEU1+fBA8epSuSSv61Bg==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063489308",
+        "submissionDate": "2026-04-07T18:12:34.492Z",
+        "message": "Already exists",
+        "mode": "online"
+      }
+    },
+    "37": {
+      "id": "37",
+      "uuid": "8e00ead1-38f2-4824-b0fe-2702b342034c",
+      "series": "FT",
+      "sequentialNumber": 141,
+      "documentType": "factura",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "debitNoteReason": "",
+      "status": "cancelled",
+      "relatedDocuments": [
+        "38",
+        "46"
+      ],
+      "createdAt": "2026-04-07T18:36:20.515Z",
+      "updatedAt": "2026-04-13T18:40:24.176Z",
+      "hash": "Gm5c0bVHH18Xa/0IJzatQpNmC7O/kwrt6eP7k/0VkaP+F1WoV0BUAPcb3aAq3IIl0Cuvvwfargqad4RxaXXZ1qDDbEoveSz/b6LLfw+rpXnpvsNuOA3PPt49tyEXZU3TrHJ1xIjgMZh8wEhTu2P8O76uNjTI0/BqcTKTaKTIhNZyd01S4Fb9pF9S34IMjGQ1XgbjZ4t+Y3A7GugaT5qdmMQ/lPV+G905LvH4CocBUzaqzCm8HNR0E7u059DB3WrJBcLyO7iKiw6zpBtakGNs0Sxt0eewAQK7k5Dn/9SB8FinVzgRblQH4bvA7QJ0YWoBTXedaB3MT9eYnIqOFstwrQ==",
+      "prevHash": "",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.008Z",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-13T18:40:24.176Z",
+        "reason": "qqqq"
+      }
+    },
+    "38": {
+      "id": "38",
+      "uuid": "cbfee133-ec26-49b5-9111-e23633420e02",
+      "series": "RC",
+      "sequentialNumber": 20,
+      "documentType": "recibo",
+      "issueDate": "2026-04-07",
+      "taxableDate": "2026-04-07",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Pagamento total referente à Factura FT XVE2026/141",
+          "quantity": 1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": 1.14,
+          "vatExemptionReason": "M04"
+        }
+      ],
+      "totals": {
+        "subtotal": 1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": 1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-14",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-07"
+      },
+      "status": "paid",
+      "relatedDocuments": [
+        "37"
+      ],
+      "createdAt": "2026-04-07T18:36:45.507Z",
+      "updatedAt": "2026-04-07T18:37:07.156Z",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600063504361",
+        "submissionDate": "2026-04-07T18:37:07.155Z",
+        "message": "Already exists",
+        "mode": "online"
+      }
+    },
+    "39": {
+      "id": "39",
+      "uuid": "9c5a76b7-a1ec-4dfa-be37-48310f0af8ff",
+      "series": "FT",
+      "sequentialNumber": 142,
+      "documentType": "factura",
+      "issueDate": "2026-04-13",
+      "taxableDate": "2026-04-13",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "pending",
+        "dueDate": "2026-04-20",
+        "paidAmount": 0
+      },
+      "debitNoteReason": "",
+      "status": "issued",
+      "relatedDocuments": [],
+      "createdAt": "2026-04-13T17:48:03.133Z",
+      "updatedAt": "2026-04-13T17:48:29.505Z",
+      "hash": "RW3BT5tPOWdnRtQC2rtSdr+91fd/Kk4Dkz3yA1THq7x0ve0atOBGL/rRnz0PLQL6XtFz99iSYEKx/YC/Knzpji1jk9giXdtoyrpuzZLydARsX8AlnAT8UBTSH9gREtK0dhV2YFfvR0Rjts3lhZIO+9SLVN08u4imimJoKzLexJjqgqfVurXt6j4NmMhJm28CaEnU+Xn5khKsiBoy5rbKNEDud7kaFMN6Aaf7qqMMqydYK++h+t07w1arGIy7KzlbkOTcjPVcHK0AhV6+8vhtCklYB6e6ZmpGKLPHkktqUTkB9/Je/PeliYfDSpQpPdtoNelvOJ0pCDI2jLfG60Og3Q==",
+      "prevHash": "Gm5c0bVHH18Xa/0IJzatQpNmC7O/kwrt6eP7k/0VkaP+F1WoV0BUAPcb3aAq3IIl0Cuvvwfargqad4RxaXXZ1qDDbEoveSz/b6LLfw+rpXnpvsNuOA3PPt49tyEXZU3TrHJ1xIjgMZh8wEhTu2P8O76uNjTI0/BqcTKTaKTIhNZyd01S4Fb9pF9S34IMjGQ1XgbjZ4t+Y3A7GugaT5qdmMQ/lPV+G905LvH4CocBUzaqzCm8HNR0E7u059DB3WrJBcLyO7iKiw6zpBtakGNs0Sxt0eewAQK7k5Dn/9SB8FinVzgRblQH4bvA7QJ0YWoBTXedaB3MT9eYnIqOFstwrQ==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600068586218",
+        "submissionDate": "2026-04-13T17:48:29.503Z",
+        "message": "Already exists",
+        "mode": "online"
+      }
+    },
+    "40": {
+      "id": "40",
+      "uuid": "5df587de-7f75-449a-9760-bdf7b5cef57e",
+      "series": "FT-AGT",
+      "sequentialNumber": 143,
+      "documentType": "factura",
+      "issueDate": "2026-04-13",
+      "taxableDate": "2026-04-13",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "pending",
+        "dueDate": "2026-04-20",
+        "paidAmount": 0
+      },
+      "debitNoteReason": "",
+      "status": "cancelled",
+      "relatedDocuments": [
+        "45"
+      ],
+      "createdAt": "2026-04-13T17:59:01.587Z",
+      "updatedAt": "2026-04-13T18:10:07.589Z",
+      "hash": "PZQgotTBbmHLu6MnHbfUAEtxXdD8aJhnlhYo0KesRODC1Ae8AKrVdUU/zd5n7xbaDdn3UhshZM15oT5DgX7gg+6fpS+8bABppqghpk5O+YHRB9jTz4mXwx1TKJ8mbZoBm7GGrgQMpRSwtOBxf9/ZiP35inVMt+pGPKcX7JgY81s0JjXAX/FdWRRc4Kg6EmNRTNbyqunsX+8PaxSwnveTrYxDfVBPWYAwFnYO4eTpFRpBg2eb7qFsHE4ejNOANVYcqKz1QX3YozMF8I29R1DHkhBg/y+m5v5bWZengn5fQz01RxrUYaCcTHhc1DDx05RulITahinB45iRm3GuEH/gew==",
+      "prevHash": "",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.008Z",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-13T18:10:07.589Z",
+        "reason": "qqqq"
+      }
+    },
+    "41": {
+      "id": "41",
+      "uuid": "30c7630e-4f4d-4475-9244-c12396ea7ea1",
+      "series": "FT",
+      "sequentialNumber": 143,
+      "documentType": "factura",
+      "issueDate": "2026-04-13",
+      "taxableDate": "2026-04-13",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 2,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 2.28
+        }
+      ],
+      "totals": {
+        "subtotal": 2,
+        "discount": 0,
+        "vatTotal": 0.28,
+        "total": 2.28,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 2,
+            "amount": 0.28
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-20",
+        "paidAmount": 2.28,
+        "paidDate": "2026-04-13"
+      },
+      "debitNoteReason": "",
+      "status": "cancelled",
+      "relatedDocuments": [
+        "42",
+        "44"
+      ],
+      "createdAt": "2026-04-13T18:00:11.094Z",
+      "updatedAt": "2026-04-13T18:08:56.540Z",
+      "hash": "kLHWe14RlA4+C/sHcWWBKobBstW26aMgCzs5cWfKxZuv1Kc5v516mHpVA1jQlExi+6fqrgLDf7ZLWUqXp6hw+LX1jddP/7CqSHhbpUlkdLTE5JBGDTADns0VevnbTzd4/HouSmk6RmdiWum3CRqPtUkdwqwGpyCIgqsPS0mKZc3p67MMBxhQuTEWQmGWmRRYCguFd0nuKLHRp3s99C6A1YNWJgJV99r3HL0FgCECEH/LNoz2XeJ7eUEkbRXUzb/JOQgDgtU20eLGbssHayAaCg979AfZRjXaNSE7UJfGVNdK2DqKZ9IDt6/VooMSl+hfyKYo57i9KPzAs18Ev9OgtQ==",
+      "prevHash": "RW3BT5tPOWdnRtQC2rtSdr+91fd/Kk4Dkz3yA1THq7x0ve0atOBGL/rRnz0PLQL6XtFz99iSYEKx/YC/Knzpji1jk9giXdtoyrpuzZLydARsX8AlnAT8UBTSH9gREtK0dhV2YFfvR0Rjts3lhZIO+9SLVN08u4imimJoKzLexJjqgqfVurXt6j4NmMhJm28CaEnU+Xn5khKsiBoy5rbKNEDud7kaFMN6Aaf7qqMMqydYK++h+t07w1arGIy7KzlbkOTcjPVcHK0AhV6+8vhtCklYB6e6ZmpGKLPHkktqUTkB9/Je/PeliYfDSpQpPdtoNelvOJ0pCDI2jLfG60Og3Q==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600068596320",
+        "submissionDate": "2026-04-13T18:01:29.309Z",
+        "message": "Auto-submitted successfully (Origin)",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-13T18:08:56.540Z",
+        "reason": "qqq"
+      }
+    },
+    "42": {
+      "id": "42",
+      "uuid": "e0edba2f-074b-4a9f-9322-af93541e0526",
+      "series": "RC",
+      "sequentialNumber": 21,
+      "documentType": "recibo",
+      "issueDate": "2026-04-13",
+      "taxableDate": "2026-04-13",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Pagamento total referente à Factura FT XVE2026/143",
+          "quantity": 1,
+          "unitPrice": 2.28,
+          "discount": 0,
+          "vatRate": 0,
+          "total": 2.28,
+          "vatExemptionReason": "M04"
+        }
+      ],
+      "totals": {
+        "subtotal": 2.28,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": 2.28,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": 2.28,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-20",
+        "paidAmount": 2.28,
+        "paidDate": "2026-04-13"
+      },
+      "status": "paid",
+      "relatedDocuments": [
+        "41"
+      ],
+      "createdAt": "2026-04-13T18:01:27.436Z",
+      "updatedAt": "2026-04-13T18:01:31.099Z",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600068596346",
+        "submissionDate": "2026-04-13T18:01:31.098Z",
+        "message": "Auto-submitted successfully (Receipt)"
+      }
+    },
+    "43": {
+      "id": "43",
+      "uuid": "44505641-3761-439c-8916-c80851311ec6",
+      "series": "FT",
+      "sequentialNumber": 144,
+      "documentType": "factura",
+      "issueDate": "2026-04-13",
+      "taxableDate": "2026-04-13",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "pending",
+        "dueDate": "2026-04-20",
+        "paidAmount": 0
+      },
+      "debitNoteReason": "",
+      "status": "issued",
+      "relatedDocuments": [],
+      "createdAt": "2026-04-13T18:06:59.354Z",
+      "updatedAt": "2026-04-13T18:06:59.390Z",
+      "hash": "z9CO5MCArVJLICgnWG9QoLQjrRaHgYKRkZfl7A8+qULaCDATPIgTzPHVufGNMX1P2srMt8/pDUEvuxUgMQ5lKcCOvZAIpTJDy9zjPrbMf8+eau1fOVeRorin2xH6HV6p/jw+p/mxds/D92OiiHkLa0gYFhBhZvFPb/QrO/P/g0OqN3oRuTQ4NRXqCoifbHNGby7VMTPPiUDeo8kx+TOpvdENglKoeJ0ZzOVlWLypPdzRPpnqw08m2CvpIgFv1sbzbHVuhb7Jehu1P8Es/6T7Pgek3SxFese3U+NTaaT/WdbvO2OqDiVm/zm/9ENEsMBkpMK5CsvfQlAGTUwfExiHqQ==",
+      "prevHash": "kLHWe14RlA4+C/sHcWWBKobBstW26aMgCzs5cWfKxZuv1Kc5v516mHpVA1jQlExi+6fqrgLDf7ZLWUqXp6hw+LX1jddP/7CqSHhbpUlkdLTE5JBGDTADns0VevnbTzd4/HouSmk6RmdiWum3CRqPtUkdwqwGpyCIgqsPS0mKZc3p67MMBxhQuTEWQmGWmRRYCguFd0nuKLHRp3s99C6A1YNWJgJV99r3HL0FgCECEH/LNoz2XeJ7eUEkbRXUzb/JOQgDgtU20eLGbssHayAaCg979AfZRjXaNSE7UJfGVNdK2DqKZ9IDt6/VooMSl+hfyKYo57i9KPzAs18Ev9OgtQ==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.008Z",
+        "mode": "online"
+      }
+    },
+    "44": {
+      "id": "44",
+      "uuid": "6038b18d-6592-4ee2-a36a-54ff563a8d55",
+      "series": "NC",
+      "sequentialNumber": 137,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-13",
+      "taxableDate": "2026-04-13",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "1231434",
+          "description": "Nota de crédito referente FT XVE2026/143 — New product ",
+          "quantity": -1,
+          "unitPrice": 2,
+          "discount": 0,
+          "vatRate": 14,
+          "total": -2.28
+        }
+      ],
+      "totals": {
+        "subtotal": -2,
+        "discount": 0,
+        "vatTotal": -0.28,
+        "total": -2.28,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": -2,
+            "amount": -0.28
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-20"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "41"
+      ],
+      "createdAt": "2026-04-13T18:08:56.496Z",
+      "updatedAt": "2026-04-13T18:08:56.539Z",
+      "hash": "tUTYm6ZMXoFcaLsFmong5SNqTfnWvyNmUm2hAu+Ic1KCzebKD/+jyOH+OY1IKMzyuO4cyRBXEw78K2RLsGoBJxcRrfdRthq+Hm4wVu4+6cK0hsdM1pTBUbfFXGfPo5NgUlBECxtwjPDI4VfOotibpIR+g/JcDP23dyOUx8yEim2z4PpTHECyRcMlYBpM7tTlz2U6aiPiwglviJRxS558dsEIDua2a1qMxkXsi09xzeZelp1Cx5TywkX9ha6LUmys6tqOVariE9Iiyr39c4uAKRG/Xpn+CBMHczkxd6jXMDTz7GaA1JMGkNSzX4GzUa+3f1OT8wKH6souoRbQXZNZFQ==",
+      "prevHash": "r94yOwWyVD1NfLDiMHbL1D2Fvrxjx0XsrfLM8d73hjzk7P17lZmk2ZXZeeYO2oxU5pd4MTSo1fWRsjimevPPUg8Q7tBsAOLh2Mm8k8dNkWzyBH5P+5MlIDDzwH3BjRuVVVcQQN+0odBF8p1KRgZduIwjOI5jSghnxUipKcXLbjzndJsyhN9dNLxWnv1UuE6sE3z37lY0PWnP11db/kppR8TP/rsTliablkHlzussgZ/t7Gw/lHiRnXniLIMO0bSG7oyqXSnrSBPwX0DNEMNdO/YmrL/LHhhc5lUicZeD1SFUCKrfE/za/LB2NSN+nDXQ6UFv686f0NKHZ5gd9ApRzA==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.008Z",
+        "mode": "online"
+      }
+    },
+    "45": {
+      "id": "45",
+      "uuid": "d2e68f11-6ec6-4f13-8e0f-22fe49a9d931",
+      "series": "NC",
+      "sequentialNumber": 138,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-13",
+      "taxableDate": "2026-04-13",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "1231434",
+          "description": "Nota de crédito referente FT-AGT XVE2026/143 — New product ",
+          "quantity": -1,
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1,
+        "discount": 0,
+        "vatTotal": -0.14,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": -1,
+            "amount": -0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-20"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "40"
+      ],
+      "createdAt": "2026-04-13T18:10:07.546Z",
+      "updatedAt": "2026-04-13T18:10:07.588Z",
+      "hash": "QbLRYvpcCV+YI2OiTHFXdDnYWRXxspaRvUqNUMdKavL/zGJOj1S71/ObHye/neCJd0IzEjnj/KfKgQxt5cxXMysaqhKR9mwbcjA49SWUaS4ter8cjuw+aqY9ghW4T0uQv1UNHasNGGLwFAKaEHN0daIMPc8YHNeEayEbgD59roFDoTyLQcAUJV2N7aTUrgc2xVKjM4hlO9jQkNumfjnROOId9xWpNUr052b07D8MIomdX5csrFao8Ww0o+IpbCYI95mGgj5/qn6b6+SnvspzoQgYFYf0TBiagaDf5izqk8Eg+jC+5U+90qn785FkWTF5fdvVpoGQms9QTLEvs2JwEQ==",
+      "prevHash": "tUTYm6ZMXoFcaLsFmong5SNqTfnWvyNmUm2hAu+Ic1KCzebKD/+jyOH+OY1IKMzyuO4cyRBXEw78K2RLsGoBJxcRrfdRthq+Hm4wVu4+6cK0hsdM1pTBUbfFXGfPo5NgUlBECxtwjPDI4VfOotibpIR+g/JcDP23dyOUx8yEim2z4PpTHECyRcMlYBpM7tTlz2U6aiPiwglviJRxS558dsEIDua2a1qMxkXsi09xzeZelp1Cx5TywkX9ha6LUmys6tqOVariE9Iiyr39c4uAKRG/Xpn+CBMHczkxd6jXMDTz7GaA1JMGkNSzX4GzUa+3f1OT8wKH6souoRbQXZNZFQ==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.008Z",
+        "mode": "online"
+      }
+    },
+    "46": {
+      "id": "46",
+      "uuid": "af578bbb-9051-4e8f-8d7c-651f63ee7ecc",
+      "series": "NC",
+      "sequentialNumber": 139,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-13",
+      "taxableDate": "2026-04-13",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "1231434",
+          "description": "Nota de crédito referente FT XVE2026/141 — New product ",
+          "quantity": -1,
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1,
+        "discount": 0,
+        "vatTotal": -0.14,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": -1,
+            "amount": -0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-20"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "37"
+      ],
+      "createdAt": "2026-04-13T18:40:24.150Z",
+      "updatedAt": "2026-04-13T18:40:24.175Z",
+      "hash": "HYwcdNDqPbZ5/1eqFBn+0rv0EieIzGIlkMfr+OBpo/SEC0IuTos0R3uy1IO7PTxsz8/XN4ulH/vlEtePC9ADI8VoVCz6WzrcWXMcSF/LKh3+ESch46hQMj532W3RX7nl8bU0sLdvTX01hFaJgazj7RJwKJu3B8RqjFlBtWmHgiLwT0ZAImgTmt8jOflPDJZIe305oLyLz5HM5YRGvjJh+46rc5/6fpQ2Wi6T0T1Dutt6L0drmweTgEs2DZYt/jt56W9cClaCNj0dqu7mOLmefzn+kBvrAJbIMcZS24bH3pBQSse3V97wDV0Px4fYz9/EbuKy3peSCO2yCAHCycHawQ==",
+      "prevHash": "QbLRYvpcCV+YI2OiTHFXdDnYWRXxspaRvUqNUMdKavL/zGJOj1S71/ObHye/neCJd0IzEjnj/KfKgQxt5cxXMysaqhKR9mwbcjA49SWUaS4ter8cjuw+aqY9ghW4T0uQv1UNHasNGGLwFAKaEHN0daIMPc8YHNeEayEbgD59roFDoTyLQcAUJV2N7aTUrgc2xVKjM4hlO9jQkNumfjnROOId9xWpNUr052b07D8MIomdX5csrFao8Ww0o+IpbCYI95mGgj5/qn6b6+SnvspzoQgYFYf0TBiagaDf5izqk8Eg+jC+5U+90qn785FkWTF5fdvVpoGQms9QTLEvs2JwEQ==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.008Z",
+        "mode": "online"
+      }
+    },
+    "47": {
+      "id": "47",
+      "uuid": "ed9e1379-ea47-413d-a71a-6df776c7e08c",
+      "series": "FT",
+      "sequentialNumber": 145,
+      "documentType": "factura",
+      "issueDate": "2026-04-13",
+      "taxableDate": "2026-04-13",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-20",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-13"
+      },
+      "debitNoteReason": "",
+      "status": "cancelled",
+      "relatedDocuments": [
+        "48",
+        "49"
+      ],
+      "createdAt": "2026-04-13T18:51:39.892Z",
+      "updatedAt": "2026-04-13T18:55:58.191Z",
+      "hash": "q7fPVZgRG58g3A8l3SqbwjGZQcXI/0CAhfeEJulHVDAr+z4uiJ/XGPCKtHeI+YWIjr8w00sR7uw9PkRNrMPHAYOre0Y9RZJbVcxFGTeliFxFt16nYRwtIsa1vdMsdD0pbHS420b7GgnlnTYWH83LjkANTkzwXz9RHd4FCSSpHCOL3onm889UhwHImKHgfVQdvPKkpIz0zkO4hDjjN0jMmzERXakRY6ZI8TX5vHgO0GWRTIhJwKWhpEKtXwXdD7DHySgeIV0khXX0BiNLVO9bIYw5y+mF705GpHk7Pc1XUWtpbFPJw38EwpqNkFT0fZ5k3keKH0vqYtfxe9MheBASXA==",
+      "prevHash": "z9CO5MCArVJLICgnWG9QoLQjrRaHgYKRkZfl7A8+qULaCDATPIgTzPHVufGNMX1P2srMt8/pDUEvuxUgMQ5lKcCOvZAIpTJDy9zjPrbMf8+eau1fOVeRorin2xH6HV6p/jw+p/mxds/D92OiiHkLa0gYFhBhZvFPb/QrO/P/g0OqN3oRuTQ4NRXqCoifbHNGby7VMTPPiUDeo8kx+TOpvdENglKoeJ0ZzOVlWLypPdzRPpnqw08m2CvpIgFv1sbzbHVuhb7Jehu1P8Es/6T7Pgek3SxFese3U+NTaaT/WdbvO2OqDiVm/zm/9ENEsMBkpMK5CsvfQlAGTUwfExiHqQ==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600068634211",
+        "submissionDate": "2026-04-13T18:52:06.666Z",
+        "message": "Already exists",
+        "mode": "online"
+      },
+      "cancellation": {
+        "cancelledAt": "2026-04-13T18:55:58.191Z",
+        "reason": "QQQQ"
+      }
+    },
+    "48": {
+      "id": "48",
+      "uuid": "b789a0b8-06d2-4cc7-99fa-a4da995bc586",
+      "series": "RC",
+      "sequentialNumber": 42,
+      "documentType": "recibo",
+      "issueDate": "2026-04-13",
+      "taxableDate": "2026-04-13",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Pagamento total referente à Factura FT XVE2026/145",
+          "quantity": 1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": 1.14,
+          "vatExemptionReason": "M04"
+        }
+      ],
+      "totals": {
+        "subtotal": 1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": 1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-20",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-13"
+      },
+      "status": "paid",
+      "relatedDocuments": [
+        "47"
+      ],
+      "createdAt": "2026-04-13T18:53:56.750Z",
+      "updatedAt": "2026-04-13T18:53:58.702Z",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600068635498",
+        "submissionDate": "2026-04-13T18:53:58.700Z",
+        "message": "Auto-submitted successfully (Receipt)"
+      }
+    },
+    "49": {
+      "id": "49",
+      "uuid": "59c48a6e-8fb9-47ee-8454-a5e032c80212",
+      "series": "NC",
+      "sequentialNumber": 140,
+      "documentType": "nota_de_credito",
+      "issueDate": "2026-04-13",
+      "taxableDate": "2026-04-13",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "1231434",
+          "description": "Nota de crédito referente FT XVE2026/145 — New product ",
+          "quantity": -1,
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": -1.14
+        }
+      ],
+      "totals": {
+        "subtotal": -1,
+        "discount": 0,
+        "vatTotal": -0.14,
+        "total": -1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": -1,
+            "amount": -0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "other",
+        "status": "n/a",
+        "dueDate": "2026-04-20"
+      },
+      "status": "issued",
+      "relatedDocuments": [
+        "47"
+      ],
+      "createdAt": "2026-04-13T18:55:58.131Z",
+      "updatedAt": "2026-04-13T18:55:58.190Z",
+      "hash": "rkkIMRDZwvJPrz63+yeYD1J/QOhvx8fk6O2JlXhT70h3faUTT1ZbI5YirVGwQABqikSOrSigaIgTUNR1ZJZjcd1AsNcsVcIjr79O1JgeYZnwjSJNTwtunZb9hxfpNigHuK3xoj1uNtm1TdxcjQ7t8bjdJnnogm6AFk7wVwOzm6xYQS+DGjS+1eJTg3fG9aMgroPG5szAFFj5Vua8T/Ap/5cQ7idJG8zTKkyzcfs0cHFJaU104NRTCbC/T/jTprPgP2YVKoTpVasv1L6jsQNIMfXNJR0JUT6VKs5yiUN1amf3SjOubdmMdDF4ReL/XkADWMADCREZ54SHFdySXXnIaQ==",
+      "prevHash": "HYwcdNDqPbZ5/1eqFBn+0rv0EieIzGIlkMfr+OBpo/SEC0IuTos0R3uy1IO7PTxsz8/XN4ulH/vlEtePC9ADI8VoVCz6WzrcWXMcSF/LKh3+ESch46hQMj532W3RX7nl8bU0sLdvTX01hFaJgazj7RJwKJu3B8RqjFlBtWmHgiLwT0ZAImgTmt8jOflPDJZIe305oLyLz5HM5YRGvjJh+46rc5/6fpQ2Wi6T0T1Dutt6L0drmweTgEs2DZYt/jt56W9cClaCNj0dqu7mOLmefzn+kBvrAJbIMcZS24bH3pBQSse3V97wDV0Px4fYz9/EbuKy3peSCO2yCAHCycHawQ==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.008Z",
+        "mode": "online"
+      }
+    },
+    "50": {
+      "id": "50",
+      "uuid": "fb1db041-17ad-4a53-9d33-eefcc39c01ce",
+      "series": "FT",
+      "sequentialNumber": 146,
+      "documentType": "factura",
+      "issueDate": "2026-04-14",
+      "taxableDate": "2026-04-14",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-21",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-14"
+      },
+      "debitNoteReason": "",
+      "status": "paid",
+      "relatedDocuments": [
+        "52"
+      ],
+      "createdAt": "2026-04-14T21:56:33.268Z",
+      "updatedAt": "2026-04-14T23:09:09.646Z",
+      "hash": "s6qezYN9WLf/m9dHwG6dZCtSG3Nsu9KvCkV+V/uiE4fbgOdK7ivrb2ybY8w363/iLM7Qs2tL68hhdwD64FH6pidBIdxc3C8abEdana5vUEmv9bOppdjyAi4hdKqRlLv0B1ZYREaa0gpPGzQnSzhtVtlzS8XRW1n+XU9NgQ6eEIyTIbpkJ+51ayYUG+fnCD/a8U751/c0PtgDHviuTwsWU9btBE7bgGY56CxlfgSQOSewgbtxBXzDdqL42cAA4k6hT5D2sR/eX5kVFQE1Bh5BdQT0RH9Gs56LN0y9osmxDMe5iS17nRxiC3g2BF31mLTpdqOz6xujqDnIV3kkNatoww==",
+      "prevHash": "z9CO5MCArVJLICgnWG9QoLQjrRaHgYKRkZfl7A8+qULaCDATPIgTzPHVufGNMX1P2srMt8/pDUEvuxUgMQ5lKcCOvZAIpTJDy9zjPrbMf8+eau1fOVeRorin2xH6HV6p/jw+p/mxds/D92OiiHkLa0gYFhBhZvFPb/QrO/P/g0OqN3oRuTQ4NRXqCoifbHNGby7VMTPPiUDeo8kx+TOpvdENglKoeJ0ZzOVlWLypPdzRPpnqw08m2CvpIgFv1sbzbHVuhb7Jehu1P8Es/6T7Pgek3SxFese3U+NTaaT/WdbvO2OqDiVm/zm/9ENEsMBkpMK5CsvfQlAGTUwfExiHqQ==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Synced successfully (Already exists)",
+        "submissionDate": "2026-04-14T22:29:44.209Z",
+        "mode": "online"
+      }
+    },
+    "51": {
+      "id": "51",
+      "uuid": "c5264c91-15ef-4cb0-ab18-95d39a82a7b9",
+      "series": "FT",
+      "sequentialNumber": 147,
+      "documentType": "factura",
+      "issueDate": "2026-04-14",
+      "taxableDate": "2026-04-14",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "pending",
+        "dueDate": "2026-04-21",
+        "paidAmount": 0
+      },
+      "debitNoteReason": "",
+      "status": "issued",
+      "relatedDocuments": [],
+      "createdAt": "2026-04-14T22:30:09.949Z",
+      "updatedAt": "2026-04-14T22:30:37.015Z",
+      "hash": "SbGVECo5loe8VuJ6/1qbLu9i+A4qx7FI2lA5v9ij7Aa/JNRulbPf6TtY6rTALjxNxtiTw47FXZmfiDwpwj+XHoukgv/XizK8rg8zLWRrx61Z8iR6oe24u2OA7iKai4/U7PY/hd+098RsgNgwJv11ulEwqNY7zoupEyDuBF3Nf9A7TTkQVqBgZZ6+A7d5Ah4zscGe+jy3y1LneSu9KDLQ43rSm4WfTXiQ6sZFNFdiKHuacGRFfu8QVjFKgoURUvMgp/cUTrDgJI8wJP+syai5hXRAo6j5dDxzxTRfYrscaVCiF8b5S8+7D0ncXIbZc2aEuFJg6++ZovPGXWU5tPLJcw==",
+      "prevHash": "s6qezYN9WLf/m9dHwG6dZCtSG3Nsu9KvCkV+V/uiE4fbgOdK7ivrb2ybY8w363/iLM7Qs2tL68hhdwD64FH6pidBIdxc3C8abEdana5vUEmv9bOppdjyAi4hdKqRlLv0B1ZYREaa0gpPGzQnSzhtVtlzS8XRW1n+XU9NgQ6eEIyTIbpkJ+51ayYUG+fnCD/a8U751/c0PtgDHviuTwsWU9btBE7bgGY56CxlfgSQOSewgbtxBXzDdqL42cAA4k6hT5D2sR/eX5kVFQE1Bh5BdQT0RH9Gs56LN0y9osmxDMe5iS17nRxiC3g2BF31mLTpdqOz6xujqDnIV3kkNatoww==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600069718310",
+        "submissionDate": "2026-04-14T22:30:37.013Z",
+        "message": "Already exists",
+        "mode": "online"
+      }
+    },
+    "52": {
+      "id": "52",
+      "uuid": "3223dfb3-5d28-4f6f-9d3c-a7ee60edb73e",
+      "series": "RC",
+      "sequentialNumber": 43,
+      "documentType": "recibo",
+      "issueDate": "2026-04-14",
+      "taxableDate": "2026-04-14",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Pagamento total referente à Factura FT XVE2026/146",
+          "quantity": 1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": 1.14,
+          "vatExemptionReason": "M04"
+        }
+      ],
+      "totals": {
+        "subtotal": 1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": 1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-21",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-14"
+      },
+      "status": "paid",
+      "relatedDocuments": [
+        "50"
+      ],
+      "createdAt": "2026-04-14T23:09:09.554Z",
+      "updatedAt": "2026-04-14T23:55:46.510Z",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.008Z",
+        "mode": "online"
+      }
+    },
+    "53": {
+      "id": "53",
+      "uuid": "76c244da-252d-45dc-836b-b9f7d39db3df",
+      "series": "FT",
+      "sequentialNumber": 148,
+      "documentType": "factura",
+      "issueDate": "2026-04-18",
+      "taxableDate": "2026-04-18",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-25",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-18"
+      },
+      "debitNoteReason": "",
+      "status": "paid",
+      "relatedDocuments": [
+        "54"
+      ],
+      "createdAt": "2026-04-18T01:05:29.863Z",
+      "updatedAt": "2026-04-18T01:12:48.013Z",
+      "hash": "tPy+gk7QJOc2RSb4fTwhMFKzIYvAjpy5t1EswAE8tmU3m52XumQDegA56xNUDbb2xxiqOKpcsxziuSs0qoC5/5N6e6OyBBKUSY6NTTX9DWEadvhJnin0n3cYcGz4JvN9d3K88PY4p2iGkHrPt4nWKowYmhomFA3Q+lVTqRdc6+e9TQ2Kd++xwfyzhIWACubi4jwNKv7FS9/6z3IGE+QQhEDt6OxQVHDblG+viwKjB4LOCH3nXFpqbdhuSg+KUJSY2bsazSLFb0Jr7jkyYbFvD0sJagMSDuSZFbAi8fK+aKpeMkobwYv8zN1NmuDgL1KY/W3z68N85Lf19MmuwwVpEQ==",
+      "prevHash": "SbGVECo5loe8VuJ6/1qbLu9i+A4qx7FI2lA5v9ij7Aa/JNRulbPf6TtY6rTALjxNxtiTw47FXZmfiDwpwj+XHoukgv/XizK8rg8zLWRrx61Z8iR6oe24u2OA7iKai4/U7PY/hd+098RsgNgwJv11ulEwqNY7zoupEyDuBF3Nf9A7TTkQVqBgZZ6+A7d5Ah4zscGe+jy3y1LneSu9KDLQ43rSm4WfTXiQ6sZFNFdiKHuacGRFfu8QVjFKgoURUvMgp/cUTrDgJI8wJP+syai5hXRAo6j5dDxzxTRfYrscaVCiF8b5S8+7D0ncXIbZc2aEuFJg6++ZovPGXWU5tPLJcw==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "agtToken": "202600072294388",
+        "submissionDate": "2026-04-18T01:12:48.013Z",
+        "message": "Auto-submitted successfully (Origin)",
+        "mode": "online"
+      }
+    },
+    "54": {
+      "id": "54",
+      "uuid": "0bad8510-0523-4cad-b966-3f381d4b53ce",
+      "series": "RC",
+      "sequentialNumber": 44,
+      "documentType": "recibo",
+      "issueDate": "2026-04-18",
+      "taxableDate": "2026-04-18",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "sku": "PAGAMENTO",
+          "description": "Pagamento total referente à Factura FT XVE2026/148",
+          "quantity": 1,
+          "unitPrice": 1.14,
+          "discount": 0,
+          "vatRate": 0,
+          "total": 1.14,
+          "vatExemptionReason": "M04"
+        }
+      ],
+      "totals": {
+        "subtotal": 1.14,
+        "discount": 0,
+        "vatTotal": 0,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 0,
+            "base": 1.14,
+            "amount": 0
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-04-25",
+        "paidAmount": 1.14,
+        "paidDate": "2026-04-18"
+      },
+      "status": "paid",
+      "relatedDocuments": [
+        "53"
+      ],
+      "createdAt": "2026-04-18T01:12:44.242Z",
+      "updatedAt": "2026-05-18T21:42:47.938Z",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.008Z",
+        "mode": "online"
+      }
+    },
+    "55": {
+      "id": "55",
+      "uuid": "059a3cc8-8303-419e-ac49-54ea6f4b8fc9",
+      "series": "FT",
+      "sequentialNumber": 149,
+      "documentType": "factura",
+      "issueDate": "2026-04-18",
+      "taxableDate": "2026-04-18",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 1,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 1.14
+        }
+      ],
+      "totals": {
+        "subtotal": 1,
+        "discount": 0,
+        "vatTotal": 0.14,
+        "total": 1.14,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 1,
+            "amount": 0.14
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "pending",
+        "dueDate": "2026-04-25",
+        "paidAmount": 0
+      },
+      "debitNoteReason": "",
+      "status": "issued",
+      "relatedDocuments": [],
+      "createdAt": "2026-04-18T01:20:47.585Z",
+      "updatedAt": "2026-05-18T21:42:47.230Z",
+      "hash": "KlmW0baS+6OMtNhK1VfwxYR15FOIeXRBs7q1s+UrEdriVoW6bO/KbHLYMGA2VtxEwK6x0YAwZvkAX4D83b7/b0VC3c39qokbFFYymoD3RT1LEbB0Tmzby3HmHfOMDtGQClI5t56w32QUQjwo25hRYfTqk7MUr8CrUSo0WwwVOfHfXtAr41PhLs6XUEMD9hrXzpl18dgGgbJmiSsWsI51ri8V+V32gtmI8JFEt1ibj/mC75EMmakA3NbhvXSsBU22dz8VvuW94kT5cryATuzw0eobBCERm0dER9QdcLi/tzq767qq8yjwAqCYRWxG6e9kIzkf9svtsdmExApb/rVsNQ==",
+      "prevHash": "tPy+gk7QJOc2RSb4fTwhMFKzIYvAjpy5t1EswAE8tmU3m52XumQDegA56xNUDbb2xxiqOKpcsxziuSs0qoC5/5N6e6OyBBKUSY6NTTX9DWEadvhJnin0n3cYcGz4JvN9d3K88PY4p2iGkHrPt4nWKowYmhomFA3Q+lVTqRdc6+e9TQ2Kd++xwfyzhIWACubi4jwNKv7FS9/6z3IGE+QQhEDt6OxQVHDblG+viwKjB4LOCH3nXFpqbdhuSg+KUJSY2bsazSLFb0Jr7jkyYbFvD0sJagMSDuSZFbAi8fK+aKpeMkobwYv8zN1NmuDgL1KY/W3z68N85Lf19MmuwwVpEQ==",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.008Z",
+        "mode": "online"
+      }
+    },
+    "56": {
+      "id": "56",
+      "uuid": "d574596c-7eb2-4e6c-a692-1053b170650a",
+      "series": "FR2",
+      "sequentialNumber": 1,
+      "documentType": "factura_recibo",
+      "issueDate": "2026-05-15",
+      "taxableDate": "2026-05-15",
+      "seller": {
+        "name": "Textiltec Soluções",
+        "tradeName": "Textiltec Soluções",
+        "address": "LUANDA ",
+        "nif": "5002821079",
+        "email": "A@D.COM",
+        "phone": "2212112"
+      },
+      "buyer": {
+        "name": "Consumidor Final",
+        "nif": "999999999",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "productId": "1",
+          "sku": "1231434",
+          "description": "New product ",
+          "quantity": 1,
+          "unit": "UN",
+          "unitPrice": 5,
+          "discount": 0,
+          "vatRate": 14,
+          "total": 5.7
+        }
+      ],
+      "totals": {
+        "subtotal": 5,
+        "discount": 0,
+        "vatTotal": 0.7,
+        "total": 5.7,
+        "vatBreakdown": [
+          {
+            "rate": 14,
+            "base": 5,
+            "amount": 0.7
+          }
+        ]
+      },
+      "payment": {
+        "method": "cash",
+        "status": "paid",
+        "dueDate": "2026-05-15",
+        "paidAmount": 5.7,
+        "paidDate": "2026-05-15"
+      },
+      "debitNoteReason": "",
+      "status": "issued",
+      "relatedDocuments": [],
+      "createdAt": "2026-05-15T01:05:46.453Z",
+      "updatedAt": "2026-05-18T21:42:46.631Z",
+      "hash": "IGKJonUsG5snFt/8T2kqcM6h16qZzlvkarYERRqck9BZtnKhtvf52orO00LRR3KXllDFo49zAHq2BtZ5EYkCQjEbSLfokbGM0WKjIFo4JOUQJfk4S46kUpiMdei0zqsJ4Gg/aNM3+NqzyXo1PoEImfc039EXO1qqCYJ1FFSPvkwQOVN1JkSyc3haoC9HjR6fj4f3zS26d29PM/4scrVO5DYUoCib+gXsSMlVxnjvg7t1JKdme8LCuMMF9D/LmKz77FHpcIm0amrTGFYiFkAJv2EYm5dfaLIyzU4ujrlNeBr27xlr7NmMrX4dPSvMJdLaBz+yjYKzq4mgB5gBmm4FqA==",
+      "prevHash": "",
+      "hashAlgorithm": "RSA-SHA1",
+      "agtSubmission": {
+        "status": "success",
+        "message": "Marked as synced automatically to clear test queue",
+        "submissionDate": "2026-05-19T01:22:48.008Z",
+        "mode": "online"
+      }
+    }
+  },
+  "nextId": 57,
+  "lastUpdated": "2026-05-18T21:42:47.938Z"
+}

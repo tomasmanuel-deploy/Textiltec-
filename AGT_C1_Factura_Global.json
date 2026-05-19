@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0",
+  "submissionUUID": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a",
+  "taxRegistrationNumber": "5002821079",
+  "submissionTimeStamp": "2025-10-27T16:35:00Z",
+  "softwareInfo": {
+    "softwareInfoDetail": {
+      "productId": "Prakash/Textiltec Soluções",
+      "productVersion": "1.0.6",
+      "productCompanyTaxId": "5002821079",
+      "softwareValidationNumber": "0"
+    },
+    "jwsSoftwareSignature": "eyJhbGciOiJSUzI1NiJ9.eyJzb2Z0d2FyZSI6InRlc3QifQ.dummy_signature_block_software"
+  },
+  "numberOfEntries": 1,
+  "documents": [
+    {
+      "documentNo": "GF S001/1",
+      "documentStatus": "N",
+      "jwsDocumentSignature": "eyJhbGciOiJSUzI1NiJ9.eyJkb2N1bWVudCI6InRlc3QifQ.dummy_signature_block_document",
+      "documentDate": "2025-10-27",
+      "customerCountry": "AO",
+      "customerTaxID": "999999999",
+      "companyName": "Consumidor Final",
+      "invoiceType": "GF",
+      "documentType": "GF",
+      "period": 10,
+      "sourceID": "Admin",
+      "systemEntryDate": "2025-10-27T16:35:00",
+      "transactionID": "20251027 S001 1",
+      "selfBillingIndicator": 0,
+      "withholdingTaxList": [],
+      "shipTo": {
+        "address": {
+          "addressDetail": "Loja Principal",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "shipFrom": {
+        "address": {
+          "addressDetail": "Loja Principal",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "movementEndTime": "2025-10-27T16:35:00",
+      "movementStartTime": "2025-10-27T08:00:00",
+      "lines": [
+        {
+          "lineNumber": 1,
+          "productCode": "VENDAS_DIA_NOR",
+          "productDescription": "Resumo de Vendas Diárias (Normal) - Balcão 1",
+          "quantity": 1,
+          "unitOfMeasure": "UN",
+          "unitPrice": 150000,
+          "unitPriceBase": 150000,
+          "taxPointDate": "2025-10-27",
+          "description": "Resumo de Vendas Diárias (Normal) - Balcão 1",
+          "productType": "S",
+          "creditAmount": 150000,
+          "settlementAmount": "0",
+          "reference": "RESUMO001",
+          "taxes": [
+            {
+              "taxType": "IVA",
+              "taxCountryRegion": "AO",
+              "taxCode": "NOR",
+              "taxPercentage": 14,
+              "taxContribution": 21000
+            }
+          ]
+        },
+        {
+          "lineNumber": 2,
+          "productCode": "VENDAS_DIA_ISE",
+          "productDescription": "Resumo de Vendas Diárias (Isento) - Balcão 1",
+          "quantity": 1,
+          "unitOfMeasure": "UN",
+          "unitPrice": 10000,
+          "unitPriceBase": 10000,
+          "taxPointDate": "2025-10-27",
+          "description": "Resumo de Vendas Diárias (Isento) - Balcão 1",
+          "productType": "S",
+          "creditAmount": 10000,
+          "settlementAmount": "0",
+          "reference": "RESUMO002",
+          "taxes": [
+            {
+              "taxType": "IVA",
+              "taxCountryRegion": "AO",
+              "taxCode": "ISE",
+              "taxPercentage": 0,
+              "taxContribution": 0
+            }
+          ],
+          "taxExemptionReason": "Isenção Artigo X",
+          "taxExemptionCode": "M00"
+        }
+      ],
+      "notes": "Factura Global referente às vendas do dia",
+      "documentTotals": {
+        "taxPayable": 21000,
+        "netTotal": 160000,
+        "grossTotal": 181000,
+        "settlementAmount": 181000,
+        "paymentMechanism": "NU",
+        "currencyCode": "AOA"
+      }
+    }
+  ]
+}

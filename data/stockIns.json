@@ -1,0 +1,57 @@
+{
+  "nextId": 11,
+  "records": [
+    {
+      "id": "3",
+      "warehouseId": "1",
+      "status": "posted",
+      "date": "2026-05-19",
+      "reference": "",
+      "lines": [
+        {
+          "productId": "6a0b914d77296178b7afccaf",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "warehouseId": "1",
+      "status": "draft",
+      "date": "2026-05-19",
+      "reference": "",
+      "lines": [
+        {
+          "productId": "6a0b914d77296178b7afccaf",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "warehouseId": "1",
+      "status": "draft",
+      "date": "2026-05-19",
+      "reference": "",
+      "lines": [
+        {
+          "productId": "6a0b914d77296178b7afccaf",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "warehouseId": "1",
+      "status": "draft",
+      "date": "2026-05-19",
+      "reference": "",
+      "lines": [
+        {
+          "productId": "6a0b914d77296178b7afccaf",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

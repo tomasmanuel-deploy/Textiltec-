@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0",
+  "submissionUUID": "a0b1c2d3-e4f5-6a7b-8c9d-0e1f2a3b4c5d",
+  "taxRegistrationNumber": "5002821079",
+  "submissionTimeStamp": "2025-10-27T10:40:00Z",
+  "softwareInfo": {
+    "softwareInfoDetail": {
+      "productId": "Prakash/Textiltec Soluções",
+      "productVersion": "1.0.6",
+      "productCompanyTaxId": "5002821079",
+      "softwareValidationNumber": "0"
+    },
+    "jwsSoftwareSignature": "eyJhbGciOiJSUzI1NiJ9.eyJzb2Z0d2FyZSI6InRlc3QifQ.dummy_signature_block_software"
+  },
+  "numberOfEntries": 1,
+  "documents": [
+    {
+      "documentNo": "RG S001/1",
+      "documentStatus": "N",
+      "jwsDocumentSignature": "eyJhbGciOiJSUzI1NiJ9.eyJkb2N1bWVudCI6InRlc3QifQ.dummy_signature_block_document",
+      "documentDate": "2025-10-27",
+      "customerCountry": "AO",
+      "customerTaxID": "999999999",
+      "companyName": "Cliente Exemplo",
+      "invoiceType": "RG",
+      "documentType": "RG",
+      "period": 10,
+      "sourceID": "Admin",
+      "systemEntryDate": "2025-10-27T10:40:00",
+      "transactionID": "20251027 S001 1",
+      "selfBillingIndicator": 0,
+      "withholdingTaxList": [],
+      "shipTo": {
+        "address": {
+          "addressDetail": "Rua do Cliente, 456",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "shipFrom": {
+        "address": {
+          "addressDetail": "Avenida 4 de Fevereiro, 45",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "movementEndTime": "2025-10-27T10:40:00",
+      "movementStartTime": "2025-10-27T10:40:00",
+      "paymentReceipt": {
+        "sourceDocuments": [
+          {
+            "lineNo": "1",
+            "sourceDocumentID": {
+              "originatingON": "FT S001/1",
+              "documentDate": "2025-10-27"
+            },
+            "debitAmount": "10000"
+          }
+        ]
+      },
+      "notes": "Outro Recibo referente à factura FT S001/1",
+      "documentTotals": {
+        "taxPayable": 0,
+        "netTotal": 10000,
+        "grossTotal": 10000,
+        "settlementAmount": "10000",
+        "paymentMechanism": "NU",
+        "currencyCode": "AOA"
+      }
+    }
+  ]
+}

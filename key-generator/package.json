@@ -1,0 +1,38 @@
+{
+  "name": "prakash-license-generator",
+  "version": "1.0.0",
+  "description": "Prakash License Key Generator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:mac": "electron-builder --mac",
+    "build:win": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "^30.5.1",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.example.prakash.keygen",
+    "productName": "Prakash License Generator",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "renderer.html",
+      "renderer.js",
+      "preload.js",
+      "package.json"
+    ],
+    "mac": {
+      "icon": "../build/icons/icon.icns",
+      "target": "dmg",
+      "category": "public.app-category.developer-tools"
+    },
+    "win": {
+      "icon": "../build/icons/icon.ico",
+      "target": "nsis"
+    }
+  }
+}

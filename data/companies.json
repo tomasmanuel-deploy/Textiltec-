@@ -1,0 +1,63 @@
+[
+  {
+    "id": "cmp-1760827656900",
+    "name": "Rajan Prakash",
+    "tradeName": "Rajan Prakash",
+    "nif": "9231321321",
+    "address": "luanda ",
+    "city": "luanda",
+    "province": "luanda",
+    "postalCode": "0000",
+    "email": "2@d,com",
+    "phone": "92111111",
+    "bankAccounts": [
+      {
+        "bankName": "",
+        "accountName": "",
+        "accountNumber": "",
+        "iban": "AO06 2322 2131 1231 1231 2",
+        "swift": ""
+      }
+    ],
+    "saftProductId": "0/AGT/2020",
+    "saftProductVersion": "1.0.6",
+    "saftProductCompanyTaxId": "5002821079",
+    "saftSoftwareCertificateNumber": "999/AGT/2024",
+    "regime": "Simplificado",
+    "seriesBase": "XVE"
+  },
+  {
+    "id": "cmp-1760843539871",
+    "name": "Textiltec Soluções",
+    "tradeName": "Textiltec Soluções",
+    "nif": "5002821079",
+    "address": "LUANDA ",
+    "city": "LUANDA ",
+    "province": "LUANDA ",
+    "postalCode": "34242",
+    "email": "A@D.COM",
+    "phone": "2212112",
+    "bankAccounts": [
+      {
+        "bankName": "BAI",
+        "accountName": "",
+        "accountNumber": "12222222222222",
+        "iban": "AO06 1223 2121 1231 1231 2131 1",
+        "swift": ""
+      },
+      {
+        "bankName": "BFA",
+        "accountName": "",
+        "accountNumber": "12222222222222",
+        "iban": "AO06 1223 2121 1231 1231 2131 1",
+        "swift": ""
+      }
+    ],
+    "saftProductId": "0/AGT/2020",
+    "saftProductVersion": "1.0.7",
+    "saftProductCompanyTaxId": "5002821079",
+    "saftSoftwareCertificateNumber": "999/AGT/2024",
+    "regime": "Simplificado",
+    "seriesBase": "XVE"
+  }
+]

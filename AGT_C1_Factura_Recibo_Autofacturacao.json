@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0",
+  "submissionUUID": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+  "taxRegistrationNumber": "5002821079",
+  "submissionTimeStamp": "2025-10-27T10:00:00Z",
+  "softwareInfo": {
+    "softwareInfoDetail": {
+      "productId": "Prakash/Textiltec Soluções",
+      "productVersion": "1.0.6",
+      "productCompanyTaxId": "5002821079",
+      "softwareValidationNumber": "0"
+    },
+    "jwsSoftwareSignature": "eyJhbGciOiJSUzI1NiJ9.eyJzb2Z0d2FyZSI6InRlc3QifQ.dummy_signature_block_software"
+  },
+  "numberOfEntries": 1,
+  "documents": [
+    {
+      "documentNo": "AF S001/1",
+      "documentStatus": "N",
+      "jwsDocumentSignature": "eyJhbGciOiJSUzI1NiJ9.eyJkb2N1bWVudCI6InRlc3QifQ.dummy_signature_block_document",
+      "documentDate": "2025-10-27",
+      "customerCountry": "AO",
+      "customerTaxID": "999999999",
+      "companyName": "Fornecedor Exemplo (Autofacturação)",
+      "invoiceType": "AF",
+      "documentType": "AF",
+      "period": 10,
+      "sourceID": "Admin",
+      "systemEntryDate": "2025-10-27T10:00:00",
+      "transactionID": "20251027 S001 1",
+      "selfBillingIndicator": 1,
+      "withholdingTaxList": [],
+      "shipTo": {
+        "address": {
+          "addressDetail": "Rua do Comércio, 123",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "shipFrom": {
+        "address": {
+          "addressDetail": "Avenida 4 de Fevereiro, 45",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "movementEndTime": "2025-10-27T10:00:00",
+      "movementStartTime": "2025-10-27T10:00:00",
+      "lines": [
+        {
+          "lineNumber": 1,
+          "productCode": "PROD001",
+          "productDescription": "Serviço de Consultoria",
+          "quantity": 1,
+          "unitOfMeasure": "UN",
+          "unitPrice": 100000,
+          "unitPriceBase": 100000,
+          "taxPointDate": "2025-10-27",
+          "description": "Serviço de Consultoria",
+          "productType": "S",
+          "creditAmount": 100000,
+          "settlementAmount": "0",
+          "reference": "PROD001",
+          "taxes": [
+            {
+              "taxType": "IVA",
+              "taxCountryRegion": "AO",
+              "taxCode": "NOR",
+              "taxPercentage": 14,
+              "taxContribution": 14000
+            }
+          ]
+        },
+        {
+          "lineNumber": 2,
+          "productCode": "PROD002",
+          "productDescription": "Produto Isento",
+          "quantity": 2,
+          "unitOfMeasure": "UN",
+          "unitPrice": 5000,
+          "unitPriceBase": 5000,
+          "taxPointDate": "2025-10-27",
+          "description": "Produto Isento",
+          "productType": "P",
+          "creditAmount": 10000,
+          "settlementAmount": "0",
+          "reference": "PROD002",
+          "taxes": [
+            {
+              "taxType": "IVA",
+              "taxCountryRegion": "AO",
+              "taxCode": "ISE",
+              "taxPercentage": 0,
+              "taxContribution": 0
+            }
+          ],
+          "taxExemptionReason": "Isenção Artigo X",
+          "taxExemptionCode": "M00"
+        }
+      ],
+      "notes": "Factura/Recibo emitida em regime de Autofacturação.",
+      "documentTotals": {
+        "taxPayable": 14000,
+        "netTotal": 110000,
+        "grossTotal": 124000,
+        "currencyCode": "AOA"
+      }
+    }
+  ]
+}

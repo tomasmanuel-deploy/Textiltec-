@@ -1,0 +1,56 @@
+{
+  "sourcePdf": "/Users/rajan/Downloads/Notificação de Validação de Software (1).pdf",
+  "version": "2026-03-03",
+  "requirements": [
+    {
+      "id": "QR-01",
+      "title": "Formato do número do documento (docNo)",
+      "description": "O docNo deve seguir o padrão \"<TIPO> <SÉRIE>/<SEQ>\", onde <TIPO> ∈ {FT, FR, RC, ND, NC, GR}, <SÉRIE> é a série autorizada/contingência para o ano em questão e <SEQ> é o sequencial com 4 dígitos (left‑pad)."
+    },
+    {
+      "id": "QR-02",
+      "title": "QR: URL do Quiosque com encode correto",
+      "description": "O QR deve apontar para https://quiosqueagt.minfin.gov.ao/facturacao-eletronica/consultar-fe com query params 'emissor' (NIF) e 'document' (docNo). O valor de 'document' deve ser codificado com encodeURIComponent."
+    },
+    {
+      "id": "SER-01",
+      "title": "Série autorizada por tipo/ano (modo online)",
+      "description": "Para submissões online, a série deve existir em company.json em authorizedSeries[TYPE][YEAR]. Caso contrário, a validação deve falhar (MISSING_AUTHORIZED_SERIES)."
+    },
+    {
+      "id": "SER-02",
+      "title": "Série de contingência por tipo/ano (modo offline)",
+      "description": "Em modo offline (contingência), usar contingencySeriesCodes[TYPE][YEAR] definido em data/agt_config.json. Se ausente, a validação deve falhar (MISSING_CONTINGENCY_SERIES); se presente, aceitar e emitir aviso OFFLINE_USING_CONTINGENCY_SERIES."
+    },
+    {
+      "id": "SUB-01",
+      "title": "Fila offline e sincronização",
+      "description": "Quando submissionMode=offline, submissões devem ser colocadas como 'offline_pending' e sincronizadas via /api/agt/sync-offline, obtendo requestID e estado."
+    },
+    {
+      "id": "VAL-01",
+      "title": "E17 – Regras de linhas para ND",
+      "description": "Para ND, as linhas devem usar creditAmount e settlementAmount '0'. Em documentos diferentes de NC, a soma dos creditAmount deve ser superior à soma dos debitAmount."
+    },
+    {
+      "id": "VAL-02",
+      "title": "E41 – Regras para RC",
+      "description": "Em RC, a soma dos debitAmount em paymentReceipt não pode exceder o remanescente da FT. Usar netTotal quando não há liquidações prévias."
+    },
+    {
+      "id": "VAL-03",
+      "title": "E43 – Estornos (NC)",
+      "description": "Em NC (estorno), a soma dos valores em debitAmount/creditAmount para o documento de referência não pode exceder o montante ainda não estornado/devolvido desse documento."
+    },
+    {
+      "id": "INV-01",
+      "title": "Ficheiro SAF-T de Inventário",
+      "description": "Os contribuintes devem submeter o ficheiro SAF-T de Inventário. Para o exercício de 2025, não haverá penalizações, mas a submissão é recomendada para transparência fiscal."
+    },
+    {
+      "id": "MAN-01",
+      "title": "Carregamento de Facturas Manuais (Blocos)",
+      "description": "Facturas emitidas em blocos (manuais) devem ser carregadas no sistema da AGT a partir de Abril de 2026 (referentes a Março), mediante preenchimento de mapa específico."
+    }
+  ]
+}

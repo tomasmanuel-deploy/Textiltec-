@@ -1,0 +1,19 @@
+{
+    "schemaVersion": "1.2",
+    "submissionUUID": "a1b2c3d4-e5f6-7890-g1h2-i238j234k5122",
+    "taxRegistrationNumber": "5002821079",
+    "submissionTimeStamp": "2025-10-27T14:30:00Z",
+    "softwareInfo": {
+        "softwareInfoDetail": {
+            "productId": "Prakash/Textiltec Soluções",
+            "productVersion": "1.0.6",
+            "softwareValidationNumber": "0"
+        },
+        "jwsSoftwareSignature": "eyJhbGciOiJSUzI1NiJ9.eyJzb2Z0d2FyZSI6InRlc3QifQ.dummy_signature_block_software"
+    },
+    "seriesYear": "2025",
+    "documentType": "FT",
+    "establishmentNumber": "SEDE",
+    "jwsSignature": "eyJhbGciOiJSUzI1NiJ9.eyJkb2N1bWVudCI6InRlc3QifQ.dummy_signature_block_document",
+    "seriesContingencyIndicator": "N"
+}

@@ -1,0 +1,43 @@
+{
+  "apiUrl": "https://sifp.minfin.gov.ao",
+  "clientId": "",
+  "clientSecret": "",
+  "testMode": false,
+  "taxpayerConsultationUrl": "https://sifp.minfin.gov.ao/sigt/contribuinte/consultarNIF/v5/obter",
+  "taxpayerUsername": "ws.prak",
+  "taxpayerPassword": "mfn180032026",
+  "taxpayerDocType": "NIF",
+  "environment": "production",
+  "timeout": 300000,
+  "retryAttempts": 5,
+  "retryDelay": 5000,
+  "agtRestUrl": "https://sifp.minfin.gov.ao/sigt/fe/v1",
+  "agtUsername": "ws.prak",
+  "agtPassword": "mfn180032026",
+  "restAuthMode": "basic",
+  "restUserHeader": "Username",
+  "restPassHeader": "Password",
+  "softwareCertificateNumber": "FE/162/AGT/2026",
+  "issuerPrivateKeyPath": "data/agt_keys/private.pem",
+  "softwarePrivateKeyPath": "data/agt_keys/software_private.pem",
+  "submissionMode": "online",
+  "establishmentNumber": "SEDE",
+  "contingencySeriesCodes": {
+    "FT": {
+      "2026": "FT7926S29030N"
+    },
+    "RC": {
+      "2026": "RC7926S7461C"
+    },
+    "FR": {
+      "2026": "FR7926S22759C"
+    },
+    "ND": {
+      "2026": "ND7926S7789C"
+    },
+    "NC": {
+      "2026": "NC7926S16403C"
+    }
+  },
+  "allowMock": false
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0",
+  "submissionUUID": "d4e5f6a7-8b9c-4d0e-1f2a-3b4c5d6e7f8a",
+  "taxRegistrationNumber": "5002821079",
+  "submissionTimeStamp": "2025-10-27T10:20:00Z",
+  "softwareInfo": {
+    "softwareInfoDetail": {
+      "productId": "Prakash/Textiltec Soluções",
+      "productVersion": "1.0.6",
+      "productCompanyTaxId": "5002821079",
+      "softwareValidationNumber": "0"
+    },
+    "jwsSoftwareSignature": "eyJhbGciOiJSUzI1NiJ9.eyJzb2Z0d2FyZSI6InRlc3QifQ.dummy_signature_block_software"
+  },
+  "numberOfEntries": 1,
+  "documents": [
+    {
+      "documentNo": "ND S001/1",
+      "documentStatus": "N",
+      "jwsDocumentSignature": "eyJhbGciOiJSUzI1NiJ9.eyJkb2N1bWVudCI6InRlc3QifQ.dummy_signature_block_document",
+      "documentDate": "2025-10-27",
+      "customerCountry": "AO",
+      "customerTaxID": "999999999",
+      "companyName": "Cliente Exemplo",
+      "invoiceType": "ND",
+      "documentType": "ND",
+      "period": 10,
+      "sourceID": "Admin",
+      "systemEntryDate": "2025-10-27T10:20:00",
+      "transactionID": "20251027 S001 1",
+      "selfBillingIndicator": 0,
+      "withholdingTaxList": [],
+      "shipTo": {
+        "address": {
+          "addressDetail": "Rua do Cliente, 456",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "shipFrom": {
+        "address": {
+          "addressDetail": "Avenida 4 de Fevereiro, 45",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "movementEndTime": "2025-10-27T10:20:00",
+      "movementStartTime": "2025-10-27T10:20:00",
+      "lines": [
+        {
+          "lineNumber": 1,
+          "productCode": "PROD003",
+          "productDescription": "Débito Adicional - Ajuste de Preço",
+          "quantity": 1,
+          "unitOfMeasure": "UN",
+          "unitPrice": 1000,
+          "unitPriceBase": 1000,
+          "taxPointDate": "2025-10-27",
+          "description": "Débito Adicional - Ajuste de Preço",
+          "productType": "P",
+          "creditAmount": 1000,
+          "settlementAmount": "0",
+          "reference": "PROD003",
+          "referenceInfo": {
+            "reference": "FT S001/1",
+            "reason": "Ajuste de preço",
+            "referenceItemLineNo": 1
+          },
+          "taxes": [
+            {
+              "taxType": "IVA",
+              "taxCountryRegion": "AO",
+              "taxCode": "NOR",
+              "taxPercentage": 14,
+              "taxContribution": 140
+            }
+          ]
+        }
+      ],
+      "notes": "Nota de Débito referente à factura FT S001/1",
+      "documentTotals": {
+        "taxPayable": 140,
+        "netTotal": 1000,
+        "grossTotal": 1140,
+        "settlementAmount": "0",
+        "paymentMechanism": "NU",
+        "currencyCode": "AOA"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "warehouses": {
+    "1": {
+      "id": "1",
+      "name": "Lote 01",
+      "code": "01",
+      "address": "Luanda",
+      "status": "active",
+      "createdAt": "2026-05-15T00:51:38.582Z",
+      "updatedAt": "2026-05-15T00:51:38.582Z"
+    }
+  },
+  "nextId": 2
+}

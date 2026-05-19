@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.0",
+  "submissionUUID": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+  "taxRegistrationNumber": "5002821079",
+  "submissionTimeStamp": "2025-10-27T10:10:00Z",
+  "softwareInfo": {
+    "softwareInfoDetail": {
+      "productId": "Prakash/Textiltec Soluções",
+      "productVersion": "1.0.6",
+      "productCompanyTaxId": "5002821079",
+      "softwareValidationNumber": "0"
+    },
+    "jwsSoftwareSignature": "eyJhbGciOiJSUzI1NiJ9.eyJzb2Z0d2FyZSI6InRlc3QifQ.dummy_signature_block_software"
+  },
+  "numberOfEntries": 1,
+  "documents": [
+    {
+      "documentNo": "NC S001/1",
+      "documentStatus": "N",
+      "jwsDocumentSignature": "eyJhbGciOiJSUzI1NiJ9.eyJkb2N1bWVudCI6InRlc3QifQ.dummy_signature_block_document",
+      "documentDate": "2025-10-27",
+      "customerCountry": "AO",
+      "customerTaxID": "999999999",
+      "companyName": "Cliente Exemplo",
+      "invoiceType": "NC",
+      "documentType": "NC",
+      "period": 10,
+      "sourceID": "Admin",
+      "systemEntryDate": "2025-10-27T10:10:00",
+      "transactionID": "20251027 S001 1",
+      "selfBillingIndicator": 0,
+      "withholdingTaxList": [],
+      "shipTo": {
+        "address": {
+          "addressDetail": "Rua do Cliente, 456",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "shipFrom": {
+        "address": {
+          "addressDetail": "Avenida 4 de Fevereiro, 45",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "movementEndTime": "2025-10-27T10:10:00",
+      "movementStartTime": "2025-10-27T10:10:00",
+      "lines": [
+        {
+          "lineNumber": 1,
+          "productCode": "PROD003",
+          "productDescription": "Devolução - Venda a Prazo",
+          "quantity": 1,
+          "unitOfMeasure": "UN",
+          "unitPrice": 20000,
+          "unitPriceBase": 20000,
+          "taxPointDate": "2025-10-27",
+          "description": "Devolução - Venda a Prazo",
+          "productType": "P",
+          "debitAmount": 20000,
+          "settlementAmount": "0",
+          "reference": "PROD003",
+          "referenceInfo": {
+            "reference": "FT S001/1",
+            "reason": "Devolução de mercadoria",
+            "referenceItemLineNo": 1
+          },
+          "taxes": [
+            {
+              "taxType": "IVA",
+              "taxCountryRegion": "AO",
+              "taxCode": "NOR",
+              "taxPercentage": 14,
+              "taxContribution": 2800
+            }
+          ]
+        },
+        {
+          "lineNumber": 2,
+          "productCode": "PROD004",
+          "productDescription": "Devolução - Produto Isento",
+          "quantity": 1,
+          "unitOfMeasure": "UN",
+          "unitPrice": 5000,
+          "unitPriceBase": 5000,
+          "taxPointDate": "2025-10-27",
+          "description": "Devolução - Produto Isento",
+          "productType": "P",
+          "debitAmount": 5000,
+          "settlementAmount": "0",
+          "reference": "PROD004",
+          "referenceInfo": {
+            "reference": "FT S001/1",
+            "reason": "Devolução de mercadoria",
+            "referenceItemLineNo": 2
+          },
+          "taxes": [
+            {
+              "taxType": "IVA",
+              "taxCountryRegion": "AO",
+              "taxCode": "ISE",
+              "taxPercentage": 0,
+              "taxContribution": 0
+            }
+          ],
+          "taxExemptionReason": "Isenção Artigo X",
+          "taxExemptionCode": "M00"
+        }
+      ],
+      "notes": "Nota de Crédito referente à factura FT S001/1",
+      "documentTotals": {
+        "taxPayable": 2800,
+        "netTotal": 25000,
+        "grossTotal": 27800,
+        "settlementAmount": "0",
+        "paymentMechanism": "NU",
+        "currencyCode": "AOA"
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0",
+  "submissionUUID": "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+  "taxRegistrationNumber": "5002821079",
+  "submissionTimeStamp": "2025-10-27T11:40:00Z",
+  "softwareInfo": {
+    "softwareInfoDetail": {
+      "productId": "Prakash/Textiltec Soluções",
+      "productVersion": "1.0.6",
+      "productCompanyTaxId": "5002821079",
+      "softwareValidationNumber": "0"
+    },
+    "jwsSoftwareSignature": "eyJhbGciOiJSUzI1NiJ9.eyJzb2Z0d2FyZSI6InRlc3QifQ.dummy_signature_block_software"
+  },
+  "numberOfEntries": 1,
+  "documents": [
+    {
+      "documentNo": "FA S001/1",
+      "documentStatus": "N",
+      "jwsDocumentSignature": "eyJhbGciOiJSUzI1NiJ9.eyJkb2N1bWVudCI6InRlc3QifQ.dummy_signature_block_document",
+      "documentDate": "2025-10-27",
+      "customerCountry": "AO",
+      "customerTaxID": "999999999",
+      "companyName": "Cliente Exemplo",
+      "invoiceType": "FA",
+      "documentType": "FA",
+      "period": 10,
+      "sourceID": "Admin",
+      "systemEntryDate": "2025-10-27T11:40:00",
+      "transactionID": "20251027 S001 1",
+      "selfBillingIndicator": 0,
+      "withholdingTaxList": [],
+      "shipTo": {
+        "address": {
+          "addressDetail": "Rua do Cliente, 123",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "shipFrom": {
+        "address": {
+          "addressDetail": "Loja Principal",
+          "city": "Luanda",
+          "postalCode": "00000",
+          "country": "AO"
+        }
+      },
+      "movementEndTime": "2025-10-27T11:40:00",
+      "movementStartTime": "2025-10-27T11:40:00",
+      "lines": [
+        {
+          "lineNumber": 1,
+          "productCode": "ADIANT001",
+          "productDescription": "Adiantamento por conta de serviços futuros",
+          "quantity": 1,
+          "unitOfMeasure": "UN",
+          "unitPrice": 100000,
+          "unitPriceBase": 100000,
+          "taxPointDate": "2025-10-27",
+          "description": "Adiantamento por conta de serviços futuros",
+          "productType": "S",
+          "creditAmount": 100000,
+          "settlementAmount": "0",
+          "reference": "ADIANT001",
+          "taxes": [
+            {
+              "taxType": "IVA",
+              "taxCountryRegion": "AO",
+              "taxCode": "NOR",
+              "taxPercentage": 14,
+              "taxContribution": 14000
+            }
+          ]
+        }
+      ],
+      "notes": "Factura de Adiantamento",
+      "documentTotals": {
+        "taxPayable": 14000,
+        "netTotal": 100000,
+        "grossTotal": 114000,
+        "currencyCode": "AOA"
+      }
+    }
+  ]
+}
