@@ -1,0 +1,189 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+}
+
+// ============ Company ============
+model Company {
+  id                            String     @id @default(cuid())
+  name                          String
+  tradeName                     String
+  nif                           String     @unique
+  address                       String
+  city                          String
+  province                      String
+  postalCode                    String?
+  country                       String     @default("Angola")
+  email                         String
+  phone                         String
+  logo                          String?    @db.Text
+  bankAccounts                  Json?      // Stored as JSON array of IBankAccount: [{ bankName, accountName, accountNumber, iban, swift }]
+  saftProductId                 String?
+  saftProductVersion            String?
+  saftProductCompanyTaxId       String?
+  saftSoftwareCertificateNumber String?
+  saftSoftwareValidationNumber  String?
+  regime                        String?
+  seriesBase                    String?
+  isCabinda                     Boolean    @default(false)
+  isDefault                     Boolean    @default(false)
+  createdAt                     DateTime   @default(now())
+  updatedAt                     DateTime   @updatedAt
+
+  products                      Product[]
+  clients                       Client[]
+  documents                     Document[]
+
+  @@map("companies")
+}
+
+// ============ Product ============
+model Product {
+  id          String   @id @default(cuid())
+  companyId   String
+  sku         String
+  name        String
+  description String?  @db.Text
+  unit        String   @default("UN")
+  unitPrice   Float
+  vatRate     Float    @default(14)
+  stock       Float    @default(0)
+  minStock    Float?   @default(0)
+  category    String?
+  active      Boolean  @default(true)
+  isService   Boolean? @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  company     Company  @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  @@unique([companyId, sku])
+  @@index([companyId])
+  @@map("products")
+}
+
+// ============ Client ============
+model Client {
+  id         String   @id @default(cuid())
+  companyId  String
+  name       String
+  tradeName  String?
+  nif        String
+  address    String
+  email      String?
+  phone      String?
+  clientType String   @default("company") // "individual" | "company"
+  status     String   @default("active")    // "active" | "inactive"
+  notes      String?  @db.Text
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  company    Company  @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  @@unique([companyId, nif])
+  @@index([companyId])
+  @@index([name])
+  @@index([status])
+  @@map("clients")
+}
+
+// ============ Document ============
+model Document {
+  id                    String    @id @default(cuid())
+  uuid                  String    @unique
+  series                String
+  sequentialNumber      Int
+  documentType          String    // "factura", "orçamento", etc.
+  issueDate             DateTime
+  taxableDate           DateTime
+  seller                Json      // IParty schema
+  buyer                 Json      // IParty schema
+  lines                 Json      // ILineItem[] schema
+  totals                Json      // ITotals schema
+  payment               Json      // IPayment schema
+  status                String    @default("draft") // "draft" | "submitted" | "accepted" | "rejected"
+  agtSubmission         Json?     // IAgtSubmission
+  auditLog              Json?     // IAuditLogEntry[]
+  attachments           Json?     // string[]
+  qrCodeData            String?   @db.Text
+  relatedDocuments      Json?     // JSON array of strings/ObjectIds
+  referenceInvoiceNo    String?
+  referenceInvoiceDate  DateTime?
+  debitNoteReason       String?   @db.Text
+  expenseRepass         Boolean   @default(false)
+  referenceText         String?   @db.Text
+  isManual              Boolean   @default(false)
+  manualBlockReference  String?
+  companyId             String
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  company               Company   @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  @@unique([series, sequentialNumber, documentType])
+  @@index([companyId])
+  @@map("documents")
+}
+
+// ============ User ============
+model User {
+  id        String    @id @default(cuid())
+  name      String
+  email     String    @unique
+  password  String
+  role      String    @default("viewer") // "admin" | "accountant" | "sales" | "viewer"
+  active    Boolean   @default(true)
+  lastLogin DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  @@map("users")
+}
+
+// ============ Customer ============
+model Customer {
+  id            String   @id @default(cuid())
+  name          String
+  nif           String?
+  address       String?
+  city          String?
+  province      String?
+  postalCode    String?
+  country       String?  @default("Angola")
+  email         String?
+  phone         String?
+  contactPerson String?
+  notes         String?  @db.Text
+  active        Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@map("customers")
+}
+
+// ============ AgtConfig ============
+model AgtConfig {
+  id                        String   @id @default(cuid())
+  apiUrl                    String
+  clientId                  String
+  clientSecret              String
+  certificatePath          String?
+  testMode                  Boolean  @default(true)
+  active                    Boolean  @default(true)
+  taxpayerConsultationUrl   String?
+  saftSubmissionUrl         String?
+  softwareCertificateNumber String?
+  publicKeyFingerprint      String?
+  privateKeyPath            String?
+  environment               String   @default("development")
+  timeout                   Int      @default(10000)
+  retryAttempts             Int      @default(3)
+  retryDelay                Int      @default(1000)
+  createdAt                 DateTime @default(now())
+  updatedAt                 DateTime @updatedAt
+
+  @@map("agt_configs")
+}
